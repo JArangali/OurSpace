@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jarangali/Documents/School/OurSpace/OurSpace/OurSpace.csproj": {}
+    "/Users/jarangali/Projects/OurSpace/OurSpace/OurSpace.csproj": {}
   },
   "projects": {
-    "/Users/jarangali/Documents/School/OurSpace/OurSpace/OurSpace.csproj": {
+    "/Users/jarangali/Projects/OurSpace/OurSpace/OurSpace.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jarangali/Documents/School/OurSpace/OurSpace/OurSpace.csproj",
+        "projectUniqueName": "/Users/jarangali/Projects/OurSpace/OurSpace/OurSpace.csproj",
         "projectName": "OurSpace",
-        "projectPath": "/Users/jarangali/Documents/School/OurSpace/OurSpace/OurSpace.csproj",
+        "projectPath": "/Users/jarangali/Projects/OurSpace/OurSpace/OurSpace.csproj",
         "packagesPath": "/Users/jarangali/.nuget/packages/",
-        "outputPath": "/Users/jarangali/Documents/School/OurSpace/OurSpace/obj/",
+        "outputPath": "/Users/jarangali/Projects/OurSpace/OurSpace/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jarangali/.nuget/NuGet/NuGet.Config"

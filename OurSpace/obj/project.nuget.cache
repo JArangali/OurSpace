@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QDafON4SV8uMzUMyVGhyHOLD2AmBAqkEzSltmoxpbqPmIHmXebdgLWzvBZlUYRQlVuP+jpexSVxmJvVdOnGACQ==",
+  "dgSpecHash": "i4b9jzt2UHOqqdXnmT81tlbm05VAunRDx2WrWOJ5nXxzPhKbwvxSz/D2IKUe/46V+ACq7WIFOVfCxcH+dU+tiA==",
   "success": true,
-  "projectFilePath": "/Users/jarangali/Documents/School/OurSpace/OurSpace/OurSpace.csproj",
+  "projectFilePath": "/Users/jarangali/Projects/OurSpace/OurSpace/OurSpace.csproj",
   "expectedPackageFiles": [
     "/Users/jarangali/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/jarangali/.nuget/packages/microsoft.data.sqlite.core/7.0.13/microsoft.data.sqlite.core.7.0.13.nupkg.sha512",

@@ -1,296 +1,880 @@
 {
   "Files": [
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/obj/Debug/net6.0/scopedcss/projectbundle/OurSpace.bundle.scp.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/obj/Debug/net6.0/scopedcss/projectbundle/OurSpace.bundle.scp.css",
       "PackagePath": "staticwebassets/OurSpace.bundle.scp.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/about-2.jpg",
-      "PackagePath": "staticwebassets/about-2.jpg"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/about.jpg",
-      "PackagePath": "staticwebassets/about.jpg"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/apple-touch-icon.png",
-      "PackagePath": "staticwebassets/apple-touch-icon.png"
-    },
-    {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/css/hub.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/hub.css",
       "PackagePath": "staticwebassets/css/hub.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/css/main.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/indiv_hub/creatives.css",
+      "PackagePath": "staticwebassets/css/indiv_hub/creatives.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/indiv_hub/homeroom.css",
+      "PackagePath": "staticwebassets/css/indiv_hub/homeroom.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/indiv_hub/macao.css",
+      "PackagePath": "staticwebassets/css/indiv_hub/macao.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/indiv_hub/plugit.css",
+      "PackagePath": "staticwebassets/css/indiv_hub/plugit.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/indiv_hub/space.css",
+      "PackagePath": "staticwebassets/css/indiv_hub/space.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/indiv_hub/stream.css",
+      "PackagePath": "staticwebassets/css/indiv_hub/stream.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/main.css",
       "PackagePath": "staticwebassets/css/main.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/css/profile.css",
+      "PackagePath": "staticwebassets/css/profile.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/events-1.jpg",
-      "PackagePath": "staticwebassets/events-1.jpg"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/about-2.jpg",
+      "PackagePath": "staticwebassets/img/about-2.jpg"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/events-2.jpg",
-      "PackagePath": "staticwebassets/events-2.jpg"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/about.jpg",
+      "PackagePath": "staticwebassets/img/about.jpg"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/events-3.jpg",
-      "PackagePath": "staticwebassets/events-3.jpg"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/img/apple-touch-icon.png"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/CruzMB.jpg",
+      "PackagePath": "staticwebassets/img/chefs/CruzMB.jpg"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/Jas.jpg",
+      "PackagePath": "staticwebassets/img/chefs/Jas.jpg"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/hero-img.png",
-      "PackagePath": "staticwebassets/hero-img.png"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/MonteclaroE (1).JPG",
+      "PackagePath": "staticwebassets/img/chefs/MonteclaroE (1).JPG"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/SantosJP (1).jpg",
+      "PackagePath": "staticwebassets/img/chefs/SantosJP (1).jpg"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/chefs-1.jpg",
+      "PackagePath": "staticwebassets/img/chefs/chefs-1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/chefs-2.jpg",
+      "PackagePath": "staticwebassets/img/chefs/chefs-2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/chefs-3.jpg",
+      "PackagePath": "staticwebassets/img/chefs/chefs-3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/lourds.jpeg",
+      "PackagePath": "staticwebassets/img/chefs/lourds.jpeg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/chefs/pao.JPG",
+      "PackagePath": "staticwebassets/img/chefs/pao.JPG"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/events-1.jpg",
+      "PackagePath": "staticwebassets/img/events-1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/events-2.jpg",
+      "PackagePath": "staticwebassets/img/events-2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/events-3.jpg",
+      "PackagePath": "staticwebassets/img/events-3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/favicon.png",
+      "PackagePath": "staticwebassets/img/favicon.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/107/107logo.png",
+      "PackagePath": "staticwebassets/img/gallery/107/107logo.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/107/gallery_1.jpg",
+      "PackagePath": "staticwebassets/img/gallery/107/gallery_1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/107/gallery_2.jpg",
+      "PackagePath": "staticwebassets/img/gallery/107/gallery_2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/107/gallery_3.jpg",
+      "PackagePath": "staticwebassets/img/gallery/107/gallery_3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/107/gallery_4.jpg",
+      "PackagePath": "staticwebassets/img/gallery/107/gallery_4.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/107/gallery_5.jpg",
+      "PackagePath": "staticwebassets/img/gallery/107/gallery_5.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/107/gallery_6.jpg",
+      "PackagePath": "staticwebassets/img/gallery/107/gallery_6.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/gallery_1.jpg",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/gallery_1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/gallery_2.jpg",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/gallery_2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/gallery_3.jpg",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/gallery_3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/gallery_4.jpg",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/gallery_4.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/gallery_5.jpg",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/gallery_5.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/gallery_6.jpg",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/gallery_6.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/pluggallery.jpg",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/pluggallery.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/Plugit/pluglogo.png",
+      "PackagePath": "staticwebassets/img/gallery/Plugit/pluglogo.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/creatives_logo.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/creatives_logo.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-1.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-2.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-3.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-4.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-4.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-5.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-5.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-6.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-6.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-7.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-7.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/gallery-8.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/gallery-8.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/creatives/stats.bg.jpg",
+      "PackagePath": "staticwebassets/img/gallery/creatives/stats.bg.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/HR-LOGO.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/HR-LOGO.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/Homeroom.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/Homeroom.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-1.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-2.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-3.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-4.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-4.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-5.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-5.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-6.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-6.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-7.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-7.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/homeroom/gallery-8.jpg",
+      "PackagePath": "staticwebassets/img/gallery/homeroom/gallery-8.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_1.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_2.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_3.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_4.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_4.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_5.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_5.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_6.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_6.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_7.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_7.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/gallery_8.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/gallery_8.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/space_bg.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/space_bg.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/space/space_logo.jpg",
+      "PackagePath": "staticwebassets/img/gallery/space/space_logo.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/stream/gallery_1.jpg",
+      "PackagePath": "staticwebassets/img/gallery/stream/gallery_1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/stream/gallery_2.jpg",
+      "PackagePath": "staticwebassets/img/gallery/stream/gallery_2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/stream/gallery_3.jpg",
+      "PackagePath": "staticwebassets/img/gallery/stream/gallery_3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/stream/gallery_4.jpg",
+      "PackagePath": "staticwebassets/img/gallery/stream/gallery_4.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/stream/gallery_5.jpg",
+      "PackagePath": "staticwebassets/img/gallery/stream/gallery_5.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/gallery/stream/streamlogo.jpg",
+      "PackagePath": "staticwebassets/img/gallery/stream/streamlogo.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/hero-img.png",
+      "PackagePath": "staticwebassets/img/hero-img.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/menu/menu-item-1.png",
+      "PackagePath": "staticwebassets/img/menu/menu-item-1.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/menu/menu-item-2.png",
+      "PackagePath": "staticwebassets/img/menu/menu-item-2.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/menu/menu-item-3.png",
+      "PackagePath": "staticwebassets/img/menu/menu-item-3.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/menu/menu-item-4.png",
+      "PackagePath": "staticwebassets/img/menu/menu-item-4.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/menu/menu-item-5.png",
+      "PackagePath": "staticwebassets/img/menu/menu-item-5.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/menu/menu-item-6.png",
+      "PackagePath": "staticwebassets/img/menu/menu-item-6.png"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/reservation.jpg",
+      "PackagePath": "staticwebassets/img/reservation.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/stats-bg.jpg",
+      "PackagePath": "staticwebassets/img/stats-bg.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/team-shape.svg",
+      "PackagePath": "staticwebassets/img/team-shape.svg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/testimonials/testimonials-1.jpg",
+      "PackagePath": "staticwebassets/img/testimonials/testimonials-1.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/testimonials/testimonials-2.jpg",
+      "PackagePath": "staticwebassets/img/testimonials/testimonials-2.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/testimonials/testimonials-3.jpg",
+      "PackagePath": "staticwebassets/img/testimonials/testimonials-3.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/img/testimonials/testimonials-4.jpg",
+      "PackagePath": "staticwebassets/img/testimonials/testimonials-4.jpg"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/reservation.jpg",
-      "PackagePath": "staticwebassets/reservation.jpg"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/scss/Readme.txt",
+      "PackagePath": "staticwebassets/scss/Readme.txt"
     },
     {
-      "Id": "/Users/jarangali/Documents/School/OurSpace/OurSpace/wwwroot/stats-bg.jpg",
-      "PackagePath": "staticwebassets/stats-bg.jpg"
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/aos/aos.cjs.js",
+      "PackagePath": "staticwebassets/vendor/aos/aos.cjs.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/aos/aos.css",
+      "PackagePath": "staticwebassets/vendor/aos/aos.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/aos/aos.esm.js",
+      "PackagePath": "staticwebassets/vendor/aos/aos.esm.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/aos/aos.js",
+      "PackagePath": "staticwebassets/vendor/aos/aos.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/aos/aos.js.map",
+      "PackagePath": "staticwebassets/vendor/aos/aos.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap-icons/bootstrap-icons.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap-icons/bootstrap-icons.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap-icons/bootstrap-icons.json",
+      "PackagePath": "staticwebassets/vendor/bootstrap-icons/bootstrap-icons.json"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap-icons/bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap-icons/bootstrap-icons.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap-icons/bootstrap-icons.scss",
+      "PackagePath": "staticwebassets/vendor/bootstrap-icons/bootstrap-icons.scss"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
+      "PackagePath": "staticwebassets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/bootstrap/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/glightbox/css/glightbox.css",
+      "PackagePath": "staticwebassets/vendor/glightbox/css/glightbox.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/glightbox/css/glightbox.min.css",
+      "PackagePath": "staticwebassets/vendor/glightbox/css/glightbox.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/glightbox/css/plyr.css",
+      "PackagePath": "staticwebassets/vendor/glightbox/css/plyr.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/glightbox/css/plyr.min.css",
+      "PackagePath": "staticwebassets/vendor/glightbox/css/plyr.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/glightbox/js/glightbox.js",
+      "PackagePath": "staticwebassets/vendor/glightbox/js/glightbox.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/glightbox/js/glightbox.min.js",
+      "PackagePath": "staticwebassets/vendor/glightbox/js/glightbox.min.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/php-email-form/validate.js",
+      "PackagePath": "staticwebassets/vendor/php-email-form/validate.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/purecounter/purecounter_vanilla.js",
+      "PackagePath": "staticwebassets/vendor/purecounter/purecounter_vanilla.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/purecounter/purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets/vendor/purecounter/purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/swiper/swiper-bundle.min.css",
+      "PackagePath": "staticwebassets/vendor/swiper/swiper-bundle.min.css"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/swiper/swiper-bundle.min.js",
+      "PackagePath": "staticwebassets/vendor/swiper/swiper-bundle.min.js"
+    },
+    {
+      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/swiper/swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets/vendor/swiper/swiper-bundle.min.js.map"
     },
     {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.OurSpace.Microsoft.AspNetCore.StaticWebAssets.props",

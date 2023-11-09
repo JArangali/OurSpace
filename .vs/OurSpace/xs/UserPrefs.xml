@@ -1,0 +1,44 @@
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.OurSpace PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="OurSpace/Views/Home/Index.cshtml" Line="171" Column="19" />
+      <File FileName="OurSpace/Views/_ViewImports.cshtml" />
+      <File FileName="OurSpace/Views/_ViewStart.cshtml" />
+      <File FileName="OurSpace/Views/Shared/_Layout.cshtml" />
+      <File FileName="OurSpace/Views/Modals/modals.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OurSpace">
+            <Node name="OurSpace" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="hubs" expanded="True" />
+                <Node name="Modals" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="lib" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
