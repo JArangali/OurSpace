@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model Customer
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,182 +9,48 @@
     <title>OurSpace</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        /* Full-width input fields */
-        input[type=text],
-        input[type=password] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
-
-        /* Set a style for all buttons */
-        button {
-            background-color: #ce1212;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-        }
-
-            button:hover {
-                opacity: 0.8;
-            }
-
-        /* Extra styles for the cancel button */
-        .cancelbtn {
-            width: auto;
-            padding: 10px 18px;
-            background-color: #ce1212;
-        }
-
-        /* Center the image and position the close button */
-        .imgcontainer {
-            text-align: center;
-            margin: 24px 0 12px 0;
-            position: relative;
-        }
-
-        img.avatar {
-            width: 40%;
-            border-radius: 50%;
-        }
-
-        .container {
-            padding: 16px;
-        }
-
-        span.psw {
-            float: right;
-            padding-top: 16px;
-        }
-
-        /* The Modal (background) */
-        .modal {
-            display: none;
-            /* Hidden by default */
-            position: fixed;
-            /* Stay in place */
-            z-index: 1;
-            /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%;
-            /* Full width */
-            height: 100%;
-            /* Full height */
-            overflow: auto;
-            /* Enable scroll if needed */
-            background-color: rgb(0, 0, 0);
-            /* Fallback color */
-            background-color: rgba(0, 0, 0, 0.4);
-            /* Black w/ opacity */
-            padding-top: 60px;
-        }
-
-        /* Modal Content/Box */
-        .modal-content {
-            background-color: #fefefe;
-            margin: 5% auto 15% auto;
-            /* 5% from the top, 15% from the bottom and centered */
-            border: 1px solid #888;
-            width: 80%;
-            /* Could be more or less, depending on screen size */
-        }
-
-        /* The Close Button (x) */
-        .close {
-            position: absolute;
-            right: 25px;
-            top: 0;
-            color: #000;
-            font-size: 35px;
-            font-weight: bold;
-        }
-
-            .close:hover,
-            .close:focus {
-                color: red;
-                cursor: pointer;
-            }
-
-        /* Add Zoom Animation */
-        .animate {
-            -webkit-animation: animatezoom 0.6s;
-            animation: animatezoom 0.6s
-        }
-
-        -webkit-keyframes animatezoom {
-            from
-
-        {
-            -webkit-transform: scale(0)
-        }
-
-        to {
-            -webkit-transform: scale(1)
-        }
-
-        }
-
-        keyframes animatezoom {
-            from
-
-        {
-            transform: scale(0)
-        }
-
-        to {
-            transform: scale(1)
-        }
-
-        }
-
-        /* Change styles for span and cancel button on extra small screens */
-        media screen and (max-width: 300px) {
-            span .psw
-
-        {
-            display: block;
-            float: none;
-        }
-
-        .cancelbtn {
-            width: 100%;
-        }
-        }
-    </style>
-
-
-    <title>OurSpace</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-
-    <!-- Favicons -->
-    <link href="~/favicon.png" rel="icon">
+    <link href="~/img/favicon.png" rel="icon">
     <link href="~/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
+    <link href="~/css/main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet">
+    <link href="~/vendor/bootstrap/css/bootstrap-grid.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 </head>
 <body>
 
     <!-- ======= Header ======= -->
-    
-    <section id="hero" class="hero d-flex align-items-center section-bg">
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a asp-action="Index" class="logo d-flex align-items-center me-auto me-lg-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <h1>OurSpace<span></span></h1>
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="hubs" asp-action="Index">Hubs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                    </li>
+                </ul>
+            </nav><!-- .navbar -->
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="login">Login</a>
+        </div>
+    </header>
+    <section id="hero">
         <div class="container">
             <div class="row justify-content-between gy-5">
                 <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
@@ -218,7 +86,6 @@
 
                     <div class="col-lg-8 d-flex align-items-center">
                         <div class="row gy-4">
-
                             <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                                     <i class="bi bi-clipboard-data"></i>
@@ -237,7 +104,6 @@
                                     </p>
                                 </div>
                             </div><!-- End Icon Box -->
-
                             <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                                     <i class="bi bi-inboxes"></i>
@@ -245,45 +111,39 @@
                                     <p>Check out which Study Hubs are open during your preferred time!</p>
                                 </div>
                             </div><!-- End Icon Box -->
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section><!-- End Why Us Section -->
-        <footer id="footer" class="footer">
-
-
-            <div class="container">
-                <div class="copyright">
-                    &copy; Copyright <strong><span>OurSpace</span></strong>. All Rights Reserved
-                </div>
-                <div class="credits">
-                    <!-- All the links in the footer should remain intact. -->
-                    <!-- You can delete the links only if you purchased the pro version. -->
-                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
-                    Designed by <a href="https://bootstrapmade.com/">Group 3 3ITF</a>
-                </div>
+    </main>
+    </div>
+    <footer id="footer" class="footer">
+        <div class="footer">
+            <div class="copyright">
+                &copy; Copyright <strong><span>OurSpace</span></strong>. All Rights Reserved
             </div>
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">Group 3 3ITF</a>
+            </div>
+        </div>
+    </footer>
 
-        </footer><!-- End Footer -->
-        <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
-            <i class="bi bi-arrow-up-short"></i>
-        </a>
+    <!-- End Footer -->
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
 
-        <div id="preloader"></div>
-        <script src="~/wwwroot/about.jpg"></script>
-        <script src="~/vendor/aos/aos.js"></script>
-        <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="~/vendor/php-email-form/validate.js"></script>
+    <div id="preloader"></div>
+    <script src="~/wwwroot/about.jpg"></script>
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
 
-        <!-- Template Main JS File -->
-        <script src="~/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="~/js/site.js"></script>
 </body>
 
 </html>

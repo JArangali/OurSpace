@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>OurSpace</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="~/favicon.png" rel="icon">
+    <link href="~/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/css/gallery/homeroom/homeroom.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <a asp-action="Index" class="logo d-flex align-items-center me-auto me-lg-0">
+                <h1>OurSpace<span>.</span></h1>
+            </a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="hubs" asp-action="Index">Hubs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                    </li>
+                </ul>
+            </nav><!-- .navbar -->
+
+            <a class="btn-book-a-table" href="#book-a-table">Login/Signup</a>
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+        </div>
+    </header><!-- End Header -->
+    <main id="main">
+
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="hero d-flex align-items-center section-bg">
+            <div>
+                <div class="row justify-content-between gy-5">
+                    <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+                        <h2 data-aos="fade-up">HomeRoom Co-Working and Study Lounge</h2>
+                        <p data-aos="fade-up" data-aos-delay="100">Giving you the quality work place</p>
+                        <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+                        <img src="~/css/gallery/homeroom/HR-LOGO.jpg" class="img-fluid" alt="" data-aos="zoom-out"
+                             data-aos-delay="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!-- End Hero Section -->
+        <!-- ======= Why Us Section ======= -->
+        <section id="stats-counter" class="stats-counter">
+            <section id="why-us" class="why-us section-bg">
+                <div class="container" data-aos="zoom-out">
+
+                    <div class="row gy-4">
+
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="why-box">
+                                <h3>Our Rates!</h3>
+                                <p>
+                                    ₱88 - 1 Hour & 30 Minutes<br><br>
+                                    ₱188 - 5 Hours<br><br>
+                                    ₱388 - *PM Unlimited until closing*<br>
+                                    1:30PM - 7AM (The next day)<br><br>
+                                    ₱488 - *AM Unlimited until closing*<br>
+                                    10AM - 7AM (The next day)
+                                </p>
+                                <div class="text-center">
+                                    <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Why Box -->
+
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <div class="row gy-4">
+
+                                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                                        <i class="bi bi-clipboard-data"></i>
+                                        <h4>Basic Inclusions</h4>
+                                        <p>
+                                            Work/Study Station<br>
+                                            Charging Outlet<br>
+                                            Free Wifi<br>
+                                            Unlimited Coffee<br>
+                                            Unlimited Light Snack
+                                        </p>
+                                    </div>
+                                </div><!-- End Icon Box -->
+
+                                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                                        <i class="bi bi-inboxes"></i>
+                                        <h4>Extra: you can borrow for FREE</h4>
+                                        <p>
+                                            Bookstand<br>
+                                            Lamp<br>
+                                            Pillow<br>
+                                            Blanket<br>
+                                            Locker<br>
+                                            Headphones<br>
+                                            Plug Adapter<br>
+                                            Microware<br>
+                                            Mini Refrigirator<br>
+                                            Telephone
+                                        </p>
+                                    </div>
+                                </div><!-- End Icon Box -->
+
+                                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                                        <i class="bi bi-gem"></i>
+                                        <h4>Optional: With Additional Fee</h4>
+                                        <p>
+                                            Napping Room - ₱88<br>
+                                            Shower Room - ₱88<br>
+                                            Bath Towel - ₱10<br>
+                                            Unline Iced tea or Juice - ₱12<br>
+                                            Tea - ₱15<br>
+                                            Print B&W Letter Size - ₱3<br>
+                                            Print Half Page Colored - ₱15<br>
+                                            Print Full Page Colored - ₱25
+                                        </p>
+                                    </div>
+                                </div><!-- End Icon Box -->
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+        </section><!-- End Why Us Section -->
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="gallery section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>gallery</h2>
+                    <p>Check <span>Our Gallery</span></p>
+                </div>
+
+                <div class="gallery-slider swiper">
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               a href="~/css/gallery/homeroom/gallery-1.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-1.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               a href="~/css/gallery/homeroom/gallery-2.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-2.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               href="~/css/gallery/homeroom/gallery-3.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-3.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               a href="~/css/gallery/homeroom/gallery-4.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-4.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               a href="~/css/gallery/homeroom/gallery-5.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-5.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               a href="~/css/gallery/homeroom/gallery-6.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-6.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               a href="~/css/gallery/homeroom/gallery-7.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-7.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="glightbox" data-gallery="images-gallery"
+                               a href="~/css/gallery/homeroom/gallery-8.jpg">
+                                <img src="~/css/gallery/homeroom/gallery-8.jpg"
+                                     class="img-fluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section><!-- End Gallery Section -->
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>Location?</h2>
+                    <p>We Got You<span>Covered</span></p>
+                </div>
+
+                <div class="mb-3">
+                    <iframe style="border:0; width: 100%; height: 350px;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.760313804715!2d120.98672197578959!3d14.612725376778272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7b79638b443%3A0xe6f6a54566983f5!2sHomeRoom%20Co-Working%20and%20Study%20Lounge!5e0!3m2!1sen!2sph!4v1692679822697!5m2!1sen!2sph"
+                            frameborder="0" allowfullscreen></iframe>
+                </div><!-- End Google Maps -->
+
+                <div class="row gy-4">
+
+                    <div class="col-md-6">
+                        <div class="info-item  d-flex align-items-center">
+                            <i class="icon bi bi-map flex-shrink-0"></i>
+                            <div>
+                                <h3>Our Address</h3>
+                                <p>1521 Dapitan St, Sampaloc, Manila, 1015 Metro Manila</p>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6">
+                        <div class="info-item d-flex align-items-center">
+                            <i class="icon bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>homeroomph@gmail.com</p>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6">
+                        <div class="info-item  d-flex align-items-center">
+                            <i class="icon bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>0977-761-0081</p>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6">
+                        <div class="info-item  d-flex align-items-center">
+                            <i class="icon bi bi-share flex-shrink-0"></i>
+                            <div>
+                                <h3>Opening Hours</h3>
+                                <div>
+                                    <strong>Mon-Sun:</strong> 9AM - 6AM
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                </div>
+            </div>
+        </section><!-- End Contact Section -->
+        <!-- ======= Book A Table Section ======= -->
+        <section id="book-a-table" class="book-a-table">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>Book A Table</h2>
+                    <p>Book <span>Your Stay</span> With Us</p>
+                </div>
+
+                <div class="row g-0">
+
+                    <div class="col-lg-4 reservation-img" style="background-image: url(/reservation.jpg);"
+                         data-aos="zoom-out" data-aos-delay="200"></div>
+
+                    <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+                        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
+                              data-aos-delay="100">
+                            <div class="row gy-4">
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                           data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                           data-rule="email" data-msg="Please enter a valid email">
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                                           data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4"
+                                           data-msg="Please enter at least 4 chars">
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4"
+                                           data-msg="Please enter at least 4 chars">
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="number" class="form-control" name="people" id="people" placeholder="# of people"
+                                           data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">
+                                    Your booking request was sent. We will call back or send an Email to
+                                    confirm
+                                    your reservation. Thank you!
+                                </div>
+                            </div>
+                            <div class="text-center"><button type="submit">Book a Table</button></div>
+                        </form>
+                    </div><!-- End Reservation Form -->
+
+                </div>
+
+            </div>
+        </section><!-- End Book A Table Section -->
+        </div>
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-geo-alt icon"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>
+                            A108 Adam Street <br>
+                            New York, NY 535022 - US<br>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links d-flex">
+                    <i class="bi bi-telephone icon"></i>
+                    <div>
+                        <h4>Reservations</h4>
+                        <p>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links d-flex">
+                    <i class="bi bi-clock icon"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>
+                            <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+                            Sunday: Closed
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-links d-flex">
+                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/js/site.js"></script>
+
+</body>
+
+</html>

@@ -8,5 +8,29 @@ namespace OurSpace.Controllers
         {
             return View();
         }
+        public IActionResult homeroom()
+        {
+            return View();
+        }
+        public IActionResult creatives()
+        {
+            return View();
+        }
+        public IActionResult space()
+        {
+            return View();
+        }
+        public IActionResult plugit()
+        {
+            return View();
+        }
+        public IActionResult macao()
+        {
+            return View();
+        }
+        public IActionResult stream()
+        {
+            return View();
+        }
     }
 }
