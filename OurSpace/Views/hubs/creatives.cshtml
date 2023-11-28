@@ -2,7 +2,7 @@
     ViewData["Title"] = "933 Creatives";
 }
 
-@model Bookings
+@model Bookings;
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -291,35 +291,36 @@
 
                     <div class="col-lg-4 reservation-img" style="background-image: url(/reservation.jpg);"
                          data-aos="zoom-out" data-aos-delay="200"></div>
-
                     <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
                         <form class="php-email-form" data-aos="fade-up" data-aos-delay="100">
                             <div class="row gy-4">
                                 <div class="col-lg-4 col-md-6">
-                                    <label asp-for="BName"></label>
+                                    <label asp-for="BName">Full Name</label>
                                     <input asp-for="BName" class="form-control">
                                 </div>
                                 <div class="col-lg-4 col-md-6">
-                                    <label asp-for="BEmail"></label>
+                                    <label asp-for="BEmail">Email</label>
                                     <input asp-for="BEmail" class="form-control">
                                 </div>
                                 <div class="col-lg-4 col-md-6">
-                                    <label asp-for="BCNum"></label>
+                                    <label asp-for="BCNum">Contact Number</label>
                                     <input type="number" asp-for="BCNum" class="form-control">
                                 </div>
                                 <div class="col-lg-4 col-md-6">
+                                    <label asp-for="BDate">Date</label>
                                     <input type="date" name="date" class="form-control" id="date" placeholder="Date" asp-for="BDate">
                                 </div>
                                 <div class="col-lg-4 col-md-6">
+                                    <label asp-for="BTime">Time</label>
                                     <input type="time" class="form-control" name="time" id="time" placeholder="Time" asp-for="BTime">
                                 </div>
                                 <div class="col-lg-4 col-md-6">
-                                    <label asp-for="BPNum"></label>
+                                    <label asp-for="BPNum">Number of Persons</label>
                                     <input asp-for="BPNum" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <label asp-for="BMessage"></label>
+                                <label asp-for="BMessage">Message</label>
                                 <input asp-for="BMessage" class="form-control">
                             </div>
                             <div class="mb-3">
@@ -334,7 +335,6 @@
                             <div class="text-center"><button type="submit">Book a Table</button></div>
                         </form>
                     </div><!-- End Reservation Form -->
-
                 </div>
 
             </div>
