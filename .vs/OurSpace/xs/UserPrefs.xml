@@ -1,58 +1,46 @@
-﻿<Properties StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default" GitUserInfo="UsingMD">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/Bookings/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.OurSpace PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="OurSpace/Controllers/CreativesController.cs" Line="94" Column="22" />
-      <File FileName="OurSpace/Views/hubs/creatives.cshtml" Line="22" Column="16" />
+      <File FileName="OurSpace/Views/About/Index.cshtml" />
+      <File FileName="OurSpace/Views/Bookings/Index.cshtml" />
+      <File FileName="OurSpace/Views/Home/Index.cshtml" Line="81" Column="45" />
+      <File FileName="OurSpace/Views/hubs/creatives.cshtml" />
       <File FileName="OurSpace/Views/hubs/homeroom.cshtml" />
+      <File FileName="OurSpace/Views/hubs/Index.cshtml" />
       <File FileName="OurSpace/Views/hubs/macao.cshtml" />
       <File FileName="OurSpace/Views/hubs/plugit.cshtml" />
       <File FileName="OurSpace/Views/hubs/space.cshtml" />
       <File FileName="OurSpace/Views/hubs/stream.cshtml" />
-      <File FileName="OurSpace/Views/hubs/Index.cshtml" Line="1" Column="1" />
-      <File FileName="OurSpace/Views/Shared/_Layout.cshtml" Line="41" Column="22" />
-      <File FileName="OurSpace/Views/Home/Index.cshtml" Line="2" Column="5" />
-      <File FileName="OurSpace/Models/Bookings.cs" Line="12" Column="23" />
-      <File FileName="OurSpace/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="OurSpace/Controllers/HubsController.cs" />
-      <File FileName="OurSpace/Program.cs" Line="1" Column="1" />
-      <File FileName="OurSpace/Views/Bookings/Index.cshtml" Line="5" Column="34" />
-      <File FileName="OurSpace/Views/about.cshtml" Line="1" Column="1" />
-      <File FileName="OurSpace/Database/AppDbContext.cs" Line="22" Column="22" />
-      <File FileName="OurSpace/Models/Customers.cs" Line="14" Column="44" />
-      <File FileName="OurSpace/Models/Admins.cs" Line="15" Column="4" />
-      <File FileName="OurSpace/Models/ErrorViewModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OurSpace" expanded="True">
-            <Node name="OurSpace">
-              <Node name="Database" expanded="True" />
+            <Node name="OurSpace" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Bookings" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Home" expanded="True">
                   <Node name="Index.cshtml" selected="True" />
                 </Node>
-                <Node name="Home" expanded="True" />
                 <Node name="hubs" expanded="True" />
                 <Node name="Modals" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="lib" expanded="True" />
               </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.OurSpace PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
