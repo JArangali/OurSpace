@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@{
+    ViewData["Title"] = "Hubs";
+}
 <head>
     <link href="~/css/hub.css" rel="stylesheet" />
     <link href="~/img/favicon.png" rel="icon">
@@ -13,37 +14,6 @@
 
 </head>
 <body>
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
-
-            <a asp-action="Index" class="logo d-flex align-items-center me-auto me-lg-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1>OurSpace<span>.</span></h1>
-            </a>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="hubs" asp-action="Index">Hubs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
-                    </li>
-                </ul>
-            </nav><!-- .navbar -->
-
-            <a class="btn-book-a-table" href="#book-a-table">Login/Signup</a>
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-        </div>
-    </header><!-- End Header -->
     <main id="main">
 
         <!-- ======= Hero Section ======= -->
@@ -168,24 +138,18 @@
             </div>
         </section><!-- End Contact Section -->
     </main><!-- End #main -->
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong><span>OurSpace</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">Group 3 3ITF</a>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
 
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i>
     </a>
 
     <div id="preloader"></div>
+    <script src="~/wwwroot/about.jpg"></script>
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -199,5 +163,3 @@
     <script src="assets/js/main.js"></script>
 
 </body>
-
-</html>

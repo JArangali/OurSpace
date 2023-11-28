@@ -1,8 +1,6 @@
-﻿@model Customer
-
-<!DOCTYPE html>
-<html lang="en">
-
+﻿@{
+    ViewData["Title"] = "HomePage";
+}
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -24,47 +22,20 @@
 
 </head>
 <body>
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
-            <a asp-action="Index" class="logo d-flex align-items-center me-auto me-lg-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1>OurSpace<span></span></h1>
-            </a>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="hubs" asp-action="Index">Hubs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
-                    </li>
-                </ul>
-            </nav><!-- .navbar -->
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="login">Login</a>
-        </div>
-    </header>
-    <section id="hero">
-        <div class="container">
-            <div class="row justify-content-between gy-5">
-                <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                    <h2 data-aos="fade-up">For your Mental health<br>Chill and Work</h2>
-                    <p data-aos="fade-up" data-aos-delay="100">Dedicated to help you in searching for your best space.</p>
-                </div>
-                <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-                    <img src="~/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+    <main id="main">
+        <section id="hero">
+            <div class="container">
+                <div class="row justify-content-between gy-5">
+                    <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+                        <h2 data-aos="fade-up">For your Mental health<br>Chill and Work</h2>
+                        <p data-aos="fade-up" data-aos-delay="100">Dedicated to help you in searching for your best space.</p>
+                    </div>
+                    <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+                        <img src="~/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section><!-- End Hero Section -->
-    <main id="main">
-
+        </section><!-- End Hero Section -->
         <!-- ======= Why Us Section ======= -->
         <section id="why-us" class="why-us section-bg">
             <div class="container" data-aos="fade-up">
@@ -118,18 +89,6 @@
         </section><!-- End Why Us Section -->
     </main>
     </div>
-    <footer id="footer" class="footer">
-        <div class="footer">
-            <div class="copyright">
-                &copy; Copyright <strong><span>OurSpace</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">Group 3 3ITF</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- End Footer -->
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i>
     </a>
@@ -145,5 +104,3 @@
     <!-- Template Main JS File -->
     <script src="~/js/site.js"></script>
 </body>
-
-</html>
