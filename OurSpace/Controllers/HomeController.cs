@@ -26,12 +26,11 @@ namespace OurSpace.Controllers
         {
             return View();
         }
-        public IActionResult login()
+        public IActionResult Dashboard()
         {
             return View();
         }
-
-        public IActionResult Bookings()
+        public IActionResult login()
         {
             return View();
         }

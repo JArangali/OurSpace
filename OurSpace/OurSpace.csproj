@@ -15,10 +15,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Database\" />
-    <None Remove="Views\Bookings\" />
+    <None Remove="Views\Dashboard\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Database\" />
-    <Folder Include="Views\Bookings\" />
+    <Folder Include="Views\Dashboard\" />
   </ItemGroup>
 </Project>

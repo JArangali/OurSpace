@@ -36,13 +36,23 @@
                         <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Bookings" asp-action="Index">Bookings</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
                     </li>
                 </ul>
-            </nav><!-- .navbar -->
-            <a class="btn-book-a-table" asp-area="" asp-controller="Home" asp-action="login">Login/Signup</a>
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            </nav>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>
+                        <a class="btn-book-a-table" asp-area="" asp-controller="Home" asp-action="login">Login</a>
+                    </li>
+                    <li>
+                        <a class="btn-book-a-table" asp-area="" asp-controller="Home" asp-action="signup">Signup</a>
+                    </li>
+                </ul>
+            </nav>
+                <!-- .navbar -->
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         </div>
     </header>
     <div class="container">
