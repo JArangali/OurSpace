@@ -1,59 +1,44 @@
 ﻿<Properties StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Controllers/HubsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/Dashboard/creativesDone.cshtml">
     <Files>
       <File FileName="OurSpace/Views/About/Index.cshtml" Line="72" Column="16" />
-      <File FileName="OurSpace/Views/Home/Index.cshtml" Line="33" Column="28" />
-      <File FileName="OurSpace/Views/hubs/creatives.cshtml" Line="325" Column="35" />
+      <File FileName="OurSpace/Views/Home/Index.cshtml" />
+      <File FileName="OurSpace/Views/hubs/creatives.cshtml" Line="24" Column="27" />
       <File FileName="OurSpace/Views/hubs/homeroom.cshtml" />
-      <File FileName="OurSpace/Views/hubs/Index.cshtml" Line="1" Column="1" />
+      <File FileName="OurSpace/Views/hubs/Index.cshtml" />
       <File FileName="OurSpace/Views/hubs/macao.cshtml" />
       <File FileName="OurSpace/Views/hubs/plugit.cshtml" />
       <File FileName="OurSpace/Views/hubs/space.cshtml" />
       <File FileName="OurSpace/Views/hubs/stream.cshtml" />
       <File FileName="OurSpace/Models/Bookings.cs" />
-      <File FileName="OurSpace/Controllers/HomeController.cs" Line="28" Column="10" />
-      <File FileName="OurSpace/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="OurSpace/Controllers/EmailController.cs" Line="1" Column="1" />
-      <File FileName="OurSpace/Controllers/About.cs" Line="1" Column="1" />
-      <File FileName="OurSpace/Views/Home/login.cshtml" Line="1" Column="1" />
+      <File FileName="OurSpace/Controllers/HomeController.cs" />
+      <File FileName="OurSpace/Views/Shared/_Layout.cshtml" />
+      <File FileName="OurSpace/Controllers/EmailController.cs" />
+      <File FileName="OurSpace/Controllers/About.cs" />
+      <File FileName="OurSpace/Views/Home/login.cshtml" />
       <File FileName="OurSpace/Database/AddDbContext.cs" Line="14" Column="33" />
-      <File FileName="OurSpace/Program.cs" Line="21" Column="1" />
-      <File FileName="OurSpace/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="OurSpace/Program.cs" />
+      <File FileName="OurSpace/appsettings.Development.json" />
       <File FileName="OurSpace/appsettings.json" />
       <File FileName="OurSpace/Views/Dashboard/Index.cshtml" Line="65" Column="33" />
       <File FileName="OurSpace/Views/Modals/modals.cshtml" />
-      <File FileName="OurSpace/Controllers/DashboardController.cs" Line="97" Column="53" />
-      <File FileName="OurSpace/Controllers/HubsController.cs" Line="37" Column="1" />
+      <File FileName="OurSpace/Controllers/DashboardController.cs" Line="103" Column="6" />
+      <File FileName="OurSpace/Controllers/HubsController.cs" Line="22" Column="10" />
+      <File FileName="OurSpace/Views/hubs/creativesDone.cshtml" Line="17" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OurSpace" expanded="True">
-            <Node name="OurSpace">
+          <Node name="OurSpace">
+            <Node name="OurSpace" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Database" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views">
+              <Node name="Views" expanded="True">
                 <Node name="About" expanded="True" />
-                <Node name="Dashboard" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="hubs" expanded="True" />
-                <Node name="Modals" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="img" expanded="True" />
-                <Node name="js" expanded="True" />
-                <Node name="lib" expanded="True">
-                  <Node name="bootstrap" expanded="True" />
-                  <Node name="jquery" expanded="True" />
-                  <Node name="jquery-validation" expanded="True" />
-                  <Node name="jquery-validation-unobtrusive" expanded="True" />
+                <Node name="Dashboard" expanded="True">
+                  <Node name="creativesDone.cshtml" selected="True" />
                 </Node>
-                <Node name="vendor" expanded="True" />
+                <Node name="hubs" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
