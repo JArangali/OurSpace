@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f+1xUEcwG0D8HrAXKPu0Bf6xub4VJrTVGfOFoTdpDj0=",
+  "Hash": "ae/EWTOhrg7+/ID+ZKn+CawG+W9zqyKnOka36XVpiXw=",
   "Source": "OurSpace",
   "BasePath": "_content/OurSpace",
   "Mode": "Default",
@@ -3602,23 +3602,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/vendor/glightbox/js/glightbox.min.js"
-    },
-    {
-      "Identity": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/php-email-form/validate.js",
-      "SourceId": "OurSpace",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/",
-      "BasePath": "_content/OurSpace",
-      "RelativePath": "vendor/php-email-form/validate.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/vendor/php-email-form/validate.js"
     },
     {
       "Identity": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/purecounter/purecounter_vanilla.js",

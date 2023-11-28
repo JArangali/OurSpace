@@ -44,6 +44,23 @@ public class DashboardController : Controller
     }
 
     [HttpGet]
+    public IActionResult AddHomeroomBookings()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult AddHomeroomBookings(Bookings newBookings)
+    {
+        if (!ModelState.IsValid)
+            return View();
+
+        _dbData.bookings.Add(newBookings);
+        _dbData.SaveChanges();
+        return View("Index", _dbData.bookings);
+    }
+
+    [HttpGet]
     public IActionResult UpdateInstructor(int id)
     {
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
@@ -55,7 +72,7 @@ public class DashboardController : Controller
     }
 
     [HttpPost]
-    public IActionResult UpdateStudent(Bookings bookingsChanges)
+    public IActionResult UpdateBookings(Bookings bookingsChanges)
     {
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == bookingsChanges.BId);
 

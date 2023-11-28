@@ -841,10 +841,6 @@
       "PackagePath": "staticwebassets/vendor/glightbox/js/glightbox.min.js"
     },
     {
-      "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/php-email-form/validate.js",
-      "PackagePath": "staticwebassets/vendor/php-email-form/validate.js"
-    },
-    {
       "Id": "/Users/jarangali/Projects/OurSpace/OurSpace/wwwroot/vendor/purecounter/purecounter_vanilla.js",
       "PackagePath": "staticwebassets/vendor/purecounter/purecounter_vanilla.js"
     },
