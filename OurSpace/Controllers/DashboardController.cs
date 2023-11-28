@@ -91,7 +91,7 @@ public class DashboardController : Controller
     }
 
     [HttpGet]
-    public IActionResult Delete(int id)
+    public IActionResult Done(int id)
     {
 
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
@@ -103,7 +103,7 @@ public class DashboardController : Controller
     }
 
     [HttpPost]
-    public IActionResult Delete(Bookings newBookings)
+    public IActionResult Done(Bookings newBookings)
     {
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == newBookings.BId);
 
