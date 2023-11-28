@@ -18,6 +18,9 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStaticFiles();
 
+var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<AddDbContext>();
+context.Database.EnsureCreated();
+
 app.UseRouting();
 
 app.UseAuthorization();

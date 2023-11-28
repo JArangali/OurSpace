@@ -1,10 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.Contracts;
+using System.Runtime.Intrinsics.X86;
+using System.Xml.Linq;
 
 namespace OurSpace.Models;
-    [Keyless]
     public class Bookings
     {
+    [Key]
         public int BId { get; set; }
         public string BName { get; set; }
         public string BEmail { get; set; }

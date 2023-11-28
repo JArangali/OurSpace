@@ -1,7 +1,7 @@
 ﻿@{
 }
+@model IEnumerable<OurSpace.Models.Bookings>
 
-@model IEnumerable<Bookings>
 
 <head>
     <meta charset="utf-8">
@@ -39,7 +39,7 @@
                     <th>Message</th>
                 </tr>
 
-                @foreach (var Bookings in Model)
+                @foreach(var Bookings in Model)
                 {
                     <tr>
                         <td>@Bookings.BId</td>
