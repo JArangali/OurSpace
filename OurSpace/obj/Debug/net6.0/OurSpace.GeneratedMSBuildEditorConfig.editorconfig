@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/jarangali/Projects/OurSpace/OurSpace
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/jarangali/Projects/OurSpace/OurSpace/Views/about.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvYWJvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/jarangali/Projects/OurSpace/OurSpace/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
