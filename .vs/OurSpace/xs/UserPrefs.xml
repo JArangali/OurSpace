@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/Dashboard/creativesDone.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/hubs/creatives.cshtml">
     <Files>
       <File FileName="OurSpace/Views/About/Index.cshtml" Line="72" Column="16" />
       <File FileName="OurSpace/Views/Home/Index.cshtml" />
@@ -16,15 +17,14 @@
       <File FileName="OurSpace/Controllers/EmailController.cs" />
       <File FileName="OurSpace/Controllers/About.cs" />
       <File FileName="OurSpace/Views/Home/login.cshtml" />
-      <File FileName="OurSpace/Database/AddDbContext.cs" Line="14" Column="33" />
+      <File FileName="OurSpace/Database/AddDbContext.cs" />
       <File FileName="OurSpace/Program.cs" />
       <File FileName="OurSpace/appsettings.Development.json" />
       <File FileName="OurSpace/appsettings.json" />
-      <File FileName="OurSpace/Views/Dashboard/Index.cshtml" Line="65" Column="33" />
+      <File FileName="OurSpace/Views/Dashboard/Index.cshtml" />
       <File FileName="OurSpace/Views/Modals/modals.cshtml" />
       <File FileName="OurSpace/Controllers/DashboardController.cs" Line="103" Column="6" />
-      <File FileName="OurSpace/Controllers/HubsController.cs" Line="22" Column="10" />
-      <File FileName="OurSpace/Views/hubs/creativesDone.cshtml" Line="17" Column="10" />
+      <File FileName="OurSpace/Controllers/HubsController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,9 +34,7 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="About" expanded="True" />
-                <Node name="Dashboard" expanded="True">
-                  <Node name="creativesDone.cshtml" selected="True" />
-                </Node>
+                <Node name="Dashboard" expanded="True" />
                 <Node name="hubs" expanded="True" />
               </Node>
             </Node>
@@ -45,11 +43,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.OurSpace PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
 </Properties>
