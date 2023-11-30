@@ -20,12 +20,17 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [C:/Users/lourd/Source/Repos/OurSpace/OurSpace/Views/Creatives/creatives.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRpdmVzXGNyZWF0aXZlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lourd/Source/Repos/OurSpace/OurSpace/Views/Creatives/creativesDone.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRpdmVzXGNyZWF0aXZlc0RvbmUuY3NodG1s
+=======
+[/Users/jarangali/Projects/OurSpace/OurSpace/Views/Dashboard/creativesDone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL2NyZWF0aXZlc0RvbmUuY3NodG1s
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lourd/Source/Repos/OurSpace/OurSpace/Views/Dashboard/Index.cshtml]
@@ -44,8 +49,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [C:/Users/lourd/Source/Repos/OurSpace/OurSpace/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
+=======
+[/Users/jarangali/Projects/OurSpace/OurSpace/Views/hubs/creatives.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvaHVicy9jcmVhdGl2ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jarangali/Projects/OurSpace/OurSpace/Views/hubs/homeroom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvaHVicy9ob21lcm9vbS5jc2h0bWw=
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lourd/Source/Repos/OurSpace/OurSpace/Views/hubs/homeroom.cshtml]

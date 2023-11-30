@@ -1,40 +1,44 @@
 ﻿<Properties StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/hubs/creatives.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Controllers/DashboardController.cs">
     <Files>
-      <File FileName="OurSpace/Views/About/Index.cshtml" Line="72" Column="16" />
+      <File FileName="OurSpace/Views/About/Index.cshtml" />
       <File FileName="OurSpace/Views/Home/Index.cshtml" />
       <File FileName="OurSpace/Views/hubs/creatives.cshtml" Line="24" Column="27" />
       <File FileName="OurSpace/Views/hubs/homeroom.cshtml" />
-      <File FileName="OurSpace/Views/hubs/Index.cshtml" />
+      <File FileName="OurSpace/Views/hubs/Index.cshtml" Line="64" Column="84" />
       <File FileName="OurSpace/Views/hubs/macao.cshtml" />
       <File FileName="OurSpace/Views/hubs/plugit.cshtml" />
       <File FileName="OurSpace/Views/hubs/space.cshtml" />
       <File FileName="OurSpace/Views/hubs/stream.cshtml" />
       <File FileName="OurSpace/Models/Bookings.cs" />
-      <File FileName="OurSpace/Controllers/HomeController.cs" />
+      <File FileName="OurSpace/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="OurSpace/Views/Shared/_Layout.cshtml" />
       <File FileName="OurSpace/Controllers/EmailController.cs" />
-      <File FileName="OurSpace/Controllers/About.cs" />
+      <File FileName="OurSpace/Controllers/About.cs" Line="1" Column="1" />
       <File FileName="OurSpace/Views/Home/login.cshtml" />
       <File FileName="OurSpace/Database/AddDbContext.cs" />
       <File FileName="OurSpace/Program.cs" />
       <File FileName="OurSpace/appsettings.Development.json" />
       <File FileName="OurSpace/appsettings.json" />
-      <File FileName="OurSpace/Views/Dashboard/Index.cshtml" />
+      <File FileName="OurSpace/Views/Dashboard/Index.cshtml" Line="74" Column="96" />
       <File FileName="OurSpace/Views/Modals/modals.cshtml" />
-      <File FileName="OurSpace/Controllers/DashboardController.cs" Line="103" Column="6" />
-      <File FileName="OurSpace/Controllers/HubsController.cs" />
+      <File FileName="OurSpace/Controllers/DashboardController.cs" Line="114" Column="2" />
+      <File FileName="OurSpace/Controllers/HubsController.cs" Line="1" Column="1" />
+      <File FileName="OurSpace/Views/Dashboard/creativesDone.cshtml" Line="67" Column="1" />
+      <File FileName="OurSpace/Controllers/CreativesController.cs" Line="10" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OurSpace">
+          <Node name="OurSpace" expanded="True">
             <Node name="OurSpace" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="About" expanded="True" />
+                <Node name="Creatives" expanded="True" />
                 <Node name="Dashboard" expanded="True" />
+                <Node name="Home" expanded="True" />
                 <Node name="hubs" expanded="True" />
               </Node>
             </Node>
