@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\OurSpace.csproj": {}
+    "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\OurSpace.csproj": {
+    "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\OurSpace.csproj",
+        "projectUniqueName": "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj",
         "projectName": "OurSpace",
-        "projectPath": "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\OurSpace.csproj",
-        "packagesPath": "C:\\Users\\lourd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\obj\\",
+        "projectPath": "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj",
+        "packagesPath": "C:\\Users\\mikha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lourd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mikha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,14 +37,22 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -53,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.14, )"
             }
           },
           "imports": [
@@ -74,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

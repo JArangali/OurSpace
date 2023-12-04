@@ -1,16 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OurSpace.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
+using OurSpace.Data;
+using OurSpace.Database;
 
 namespace OurSpace.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly AppDbContext _dbData;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, AppDbContext dbData)
         {
             _logger = logger;
+            _dbData = dbData;
         }
 
         public IActionResult Index()
@@ -28,10 +33,10 @@ namespace OurSpace.Controllers
         }
         public IActionResult login()
         {
-            return View();
+            return View("Accounts");
         }
 
-        public IActionResult SignUp()
+        public IActionResult Register()
         {
             return View();
         }

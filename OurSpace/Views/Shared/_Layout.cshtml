@@ -42,12 +42,21 @@
             </nav>
             <nav id="navbar" class="navbar">
                 <ul>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-action="Logout" asp-controller="Account">Logout</a>
+                        </li>
+                    }
+                    else
+                    {
                     <li>
-                        <a class="btn-book-a-table" asp-area="" asp-controller="Home" asp-action="login">Login</a>
+                        <a class="btn-book-a-table" asp-area="" asp-controller="Account" asp-action="login">Login</a>
                     </li>
                     <li>
-                        <a class="btn-book-a-table" asp-area="" asp-controller="Home" asp-action="signup">Signup</a>
+                        <a class="btn-book-a-table" asp-area="" asp-controller="Account" asp-action="register">Signup</a>
                     </li>
+                    }
                 </ul>
             </nav>
                 <!-- .navbar -->
