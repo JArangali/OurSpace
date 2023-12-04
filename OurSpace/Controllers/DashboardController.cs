@@ -4,9 +4,9 @@ using OurSpace.Data;
 
 public class DashboardController : Controller
 {
-    private readonly AddDbContext _dbData;
+    private readonly AppDbContext _dbData;
 
-    public DashboardController(AddDbContext dbData)
+    public DashboardController(AppDbContext dbData)
     {
         _dbData = dbData;
     }

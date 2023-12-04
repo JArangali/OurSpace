@@ -1,4 +1,4 @@
-namespace OurSpace.Models
+    namespace OurSpace.Models
 {
     public class ErrorViewModel
     {

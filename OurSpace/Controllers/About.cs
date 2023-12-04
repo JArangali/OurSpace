@@ -1,12 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace OurSpace.Controllers
 {
     public class About : Controller
     {
-        public IActionResult Index()
+        public class AboutController : Controller
         {
+            public IActionResult Index() 
+            { 
             return View();
-        }
+            }
+        }  
     }
 }

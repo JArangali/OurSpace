@@ -1,13 +1,26 @@
 using OurSpace.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using OurSpace.Database;
 
+;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<AddDbContext>(
-    options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<AppDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddIdentity<UserIdentity, IdentityRole> ( options =>
+{
+    //options.SignIn.RequireConfirmedAccount = true;
+    options.Password.RequireDigit = true;
+    options.Password.RequireUppercase = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequiredLength = 8;
+    options.User.RequireUniqueEmail = true;
+}).AddEntityFrameworkStores<AppDbContext>().AddRoles<IdentityRole> ();
 
 var app = builder.Build();
 
@@ -18,12 +31,14 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStaticFiles();
 
-var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<AddDbContext>();
-context.Database.EnsureCreated();
-
 app.UseRouting();
 
+app.UseAuthentication ();
+
 app.UseAuthorization();
+
+var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<AppDbContext>();
+context.Database.EnsureCreated();
 
 app.MapControllerRoute(
     name: "default",
