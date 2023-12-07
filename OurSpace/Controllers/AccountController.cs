@@ -5,6 +5,7 @@ using OurSpace.Data;
 using OurSpace.Database;
 using OurSpace.Models;
 using OurSpace.ViewModels;
+using System.Text.RegularExpressions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OurSpace.Controllers
@@ -66,6 +67,16 @@ namespace OurSpace.Controllers
         {
             if (ModelState.IsValid)
             {
+
+              // check if admin code is in hubs table
+              // var existingHub = _dbData.bookings.Where(p => p.BId == registerInfo.AdminCode).FirstOrDefault();
+
+              //  if (existingHub == null)
+              //  {
+              //      ModelState.AddModelError("AdminCode", "Admin Code does not exist");
+              //      return View(registerInfo);
+              //  }
+
                 UserIdentity newAdmin = new UserIdentity();
                 newAdmin.UFName = registerInfo.UFname;
                 newAdmin.ULName = registerInfo.ULname;
