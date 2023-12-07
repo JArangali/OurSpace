@@ -1,45 +1,48 @@
-﻿<Properties StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Controllers/DashboardController.cs">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{D61B2A6B-04A7-450A-BC81-3CCD898EEDBC}|Default">
+  <MonoDevelop.Ide.ItemProperties.OurSpace PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OurSpace/Views/Dashboard/Index.cshtml">
     <Files>
       <File FileName="OurSpace/Views/About/Index.cshtml" />
       <File FileName="OurSpace/Views/Home/Index.cshtml" />
-      <File FileName="OurSpace/Views/hubs/creatives.cshtml" Line="24" Column="27" />
       <File FileName="OurSpace/Views/hubs/homeroom.cshtml" />
-      <File FileName="OurSpace/Views/hubs/Index.cshtml" Line="64" Column="84" />
+      <File FileName="OurSpace/Views/hubs/Index.cshtml" />
       <File FileName="OurSpace/Views/hubs/macao.cshtml" />
       <File FileName="OurSpace/Views/hubs/plugit.cshtml" />
       <File FileName="OurSpace/Views/hubs/space.cshtml" />
       <File FileName="OurSpace/Views/hubs/stream.cshtml" />
-      <File FileName="OurSpace/Models/Bookings.cs" />
-      <File FileName="OurSpace/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="OurSpace/Models/Bookings.cs" Line="17" Column="45" />
+      <File FileName="OurSpace/Controllers/HomeController.cs" />
       <File FileName="OurSpace/Views/Shared/_Layout.cshtml" />
       <File FileName="OurSpace/Controllers/EmailController.cs" />
-      <File FileName="OurSpace/Controllers/About.cs" Line="1" Column="1" />
-      <File FileName="OurSpace/Views/Home/login.cshtml" />
-      <File FileName="OurSpace/Database/AddDbContext.cs" />
+      <File FileName="OurSpace/Controllers/About.cs" />
       <File FileName="OurSpace/Program.cs" />
       <File FileName="OurSpace/appsettings.Development.json" />
       <File FileName="OurSpace/appsettings.json" />
-      <File FileName="OurSpace/Views/Dashboard/Index.cshtml" Line="74" Column="96" />
+      <File FileName="OurSpace/Views/Dashboard/Index.cshtml" Line="3" Column="4" />
       <File FileName="OurSpace/Views/Modals/modals.cshtml" />
-      <File FileName="OurSpace/Controllers/DashboardController.cs" Line="114" Column="2" />
-      <File FileName="OurSpace/Controllers/HubsController.cs" Line="1" Column="1" />
-      <File FileName="OurSpace/Views/Dashboard/creativesDone.cshtml" Line="67" Column="1" />
-      <File FileName="OurSpace/Controllers/CreativesController.cs" Line="10" Column="10" />
+      <File FileName="OurSpace/Controllers/DashboardController.cs" />
+      <File FileName="OurSpace/Controllers/HubsController.cs" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
+      <File FileName="OurSpace/Views/Home/login.cshtml" />
+      <File FileName="OurSpace/Models/Accepted.cs" Line="9" Column="1" />
+      <File FileName="OurSpace/Database/AddDbContext.cs" />
+      <File FileName="OurSpace/Models/Enumerables.cs" Line="6" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OurSpace" expanded="True">
             <Node name="OurSpace" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="About" expanded="True" />
-                <Node name="Creatives" expanded="True" />
-                <Node name="Dashboard" expanded="True" />
+                <Node name="Dashboard" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
                 <Node name="Home" expanded="True" />
                 <Node name="hubs" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -47,10 +50,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.OurSpace PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

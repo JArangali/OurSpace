@@ -1,6 +1,6 @@
 ﻿@{
 }
-@model IEnumerable<OurSpace.Models.Bookings>
+@model TwoModelViewModel
 
 
 <head>
@@ -39,46 +39,76 @@
             </div>
         </section><!-- End Hero Section -->
     </main>
-        <!-- ======= Stats Counter Section ======= -->
-        <section id="stats-counter" class="stats-counter">
-            <div class="container" data-aos="zoom-out">
-                <div class="section-header" style="background-color: #D3D3D3; border-left: 30px; border-right: 30px; border-radius: 35px; padding-top: 30px">
-                    <strong>
-                        <h1>Booking List</h1>
-                    </strong>
-                    </div>
-                    <table class="table table-dark">
-                        <tr>
-                            <th>ID</th>
-                            <th>Full Name</th>
-                            <th>Email</th>
-                            <th>Contact Number</th>
-                            <th>Date</th>
-                            <th>Time</th>
-                            <th>Number of Persons</th>
-                            <th>Message</th>
-                            <th>Done</th>
-                        </tr>
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+        <div class="container" data-aos="zoom-out">
+            <div class="section-header" style="background-color: #D3D3D3; border-left: 30px; border-right: 30px; border-radius: 35px; padding-top: 30px">
+                <strong>
+                    <h1>Booking List</h1>
+                </strong>
+            </div>
+            <table class="table table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Contact Number</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Number of Persons</th>
+                    <th>Message</th>
+                    <th>Delete</th>
+                    <th>Done</th>
+                </tr>
 
-                        @foreach (var Bookings in Model)
-                        {
-                            <tr>
-                                <td>@Bookings.BId</td>
-                                <td>@Bookings.BName</td>
-                                <td>@Bookings.BEmail</td>
-                                <td>@Bookings.BCNum</td>
-                                <td>@Bookings.BDate</td>
-                                <td>@Bookings.BTime</td>
-                                <td>@Bookings.BPNum</td>
-                                <td>@Bookings.BMessage</td>
-                                <td><a asp-action="creativesDone" asp-route-id="@Bookings.BId" class="btn btn-danger">Done</a></td>
-                            </tr>
-                        }
-                    </table>
+                @foreach (var item in Model.Bookings)
+                    {
+                    <tr>
+                        <td>@Bookings.BId</td>
+                        <td>@Bookings.BName</td>
+                        <td>@Bookings.BEmail</td>
+                        <td>@Bookings.BCNum</td>
+                        <td>@Bookings.BDate</td>
+                        <td>@Bookings.BTime</td>
+                        <td>@Bookings.BPNum</td>
+                        <td>@Bookings.BMessage</td>
+                        <td><a asp-action="creativesCancel" asp-route-id="@Bookings.BId" class="btn btn-danger">Done</a></td>
+                    </tr>
+                }
+            </table>
 
-                </div>
-</section><!-- End Stats Counter Section -->
-   
+            <table class="table table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Contact Number</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Number of Persons</th>
+                    <th>Message</th>
+                    <th>Delete</th>
+                    <th>Done</th>
+                </tr>
+
+                @foreach (var Accepted in Model)
+                {
+                    <tr>
+                        <td>@Accepted.ABId</td>
+                        <td>@Accepted.ABName</td>
+                        <td>@Accepted.ABEmail</td>
+                        <td>@Accepted.ABCNum</td>
+                        <td>@Accepted.ABDate</td>
+                        <td>@Accepted.ABTime</td>
+                        <td>@Accepted.ABPNum</td>
+                        <td>@Accepted.ABMessage</td>
+                        <td><a asp-action="creativesCancel" asp-route-id="@Accepted.ABId" class="btn btn-danger">Done</a></td>
+                    </tr>
+                }
+            </table>
+
+        </div>
+    </section><!-- End Stats Counter Section -->
     </div>
     <!-- Start Footer -->
     <footer id="footer" class="footer">

@@ -3172,32 +3172,33 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.13"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lourd\\.nuget\\packages\\": {}
+    "/Users/jarangali/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\OurSpace.csproj",
+      "projectUniqueName": "/Users/jarangali/Projects/OurSpace/OurSpace/OurSpace.csproj",
       "projectName": "OurSpace",
-      "projectPath": "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\OurSpace.csproj",
-      "packagesPath": "C:\\Users\\lourd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lourd\\Source\\Repos\\OurSpace\\OurSpace\\obj\\",
+      "projectPath": "/Users/jarangali/Projects/OurSpace/OurSpace/OurSpace.csproj",
+      "packagesPath": "/Users/jarangali/.nuget/packages/",
+      "outputPath": "/Users/jarangali/Projects/OurSpace/OurSpace/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lourd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jarangali/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3216,6 +3217,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.14, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -3250,7 +3255,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,7 +13,17 @@ public class DashboardController : Controller
 
     public IActionResult Index()
     {
-        return View(_dbData.bookings);
+
+        var bookings = _dbData.bookings.ToList();
+        var accepted = _dbData.accepted.ToList();
+
+        var viewModel = new TwoModelViewModel
+        {
+            Bookings = bookings,
+            Accepted = accepted
+        };
+
+        return View(viewModel);
     }
 
     public IActionResult ShowDetail(int id)
@@ -25,6 +35,7 @@ public class DashboardController : Controller
 
         return NotFound();
     }
+
 
     [HttpGet]
     public IActionResult AddBookings()
@@ -43,22 +54,22 @@ public class DashboardController : Controller
         return View("Index", _dbData.bookings);
     }
 
-    [HttpGet]
-    public IActionResult AddHomeroomBookings()
-    {
-        return View();
-    }
+    //[HttpGet]
+    //public IActionResult AddHomeroomBookings()
+    //{
+    //    return View();
+    //}
 
-    [HttpPost]
-    public IActionResult AddHomeroomBookings(Bookings newBookings)
-    {
-        if (!ModelState.IsValid)
-            return View();
+    //[HttpPost]
+    //public IActionResult AddHomeroomBookings(Bookings newBookings)
+    //{
+    //    if (!ModelState.IsValid)
+    //        return View();
 
-        _dbData.bookings.Add(newBookings);
-        _dbData.SaveChanges();
-        return View("Index", _dbData.bookings);
-    }
+    //    _dbData.bookings.Add(newBookings);
+    //    _dbData.SaveChanges();
+    //    return View("Index", _dbData.bookings);
+    //}
 
     //[HttpGet]
     //public IActionResult UpdateUser(int id)
@@ -91,7 +102,7 @@ public class DashboardController : Controller
     //}
 
     [HttpGet]
-    public IActionResult creativesDone(int id)
+    public IActionResult creativesCancel(int id)
     {
 
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
@@ -103,12 +114,12 @@ public class DashboardController : Controller
     }
 
     [HttpPost]
-    public IActionResult creativesDone(Bookings newBookings)
+    public IActionResult creativesCancel(Bookings newBookings)
     {
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == newBookings.BId);
 
         if (bookings != null)
             _dbData.bookings.Remove(bookings);
-        return View("Index", _dbData.bookings);
+        return View("/Index", _dbData.bookings);
     }
 }
