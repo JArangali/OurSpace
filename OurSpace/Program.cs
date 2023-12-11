@@ -20,7 +20,7 @@ builder.Services.AddIdentity<UserIdentity, IdentityRole> ( options =>
     options.Password.RequireLowercase = true;
     options.Password.RequiredLength = 8;
     options.User.RequireUniqueEmail = true;
-}).AddEntityFrameworkStores<AppDbContext>().AddRoles<IdentityRole> ();
+}).AddEntityFrameworkStores<AppDbContext>().AddRoles<IdentityRole> ().AddDefaultTokenProviders();
 
 var app = builder.Build();
 

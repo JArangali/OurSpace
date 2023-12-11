@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj": {}
+    "C:\\Users\\lourd\\source\\Repos\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj": {
+    "C:\\Users\\lourd\\source\\Repos\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj",
+        "projectUniqueName": "C:\\Users\\lourd\\source\\Repos\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj",
         "projectName": "OurSpace",
-        "projectPath": "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj",
-        "packagesPath": "C:\\Users\\mikha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikha\\Desktop\\OurSpace\\OurSpace\\OurSpace\\obj\\",
+        "projectPath": "C:\\Users\\lourd\\source\\Repos\\OurSpace\\OurSpace\\OurSpace\\OurSpace.csproj",
+        "packagesPath": "C:\\Users\\lourd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lourd\\source\\Repos\\OurSpace\\OurSpace\\OurSpace\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mikha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lourd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
