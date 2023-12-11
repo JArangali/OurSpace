@@ -219,7 +219,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
+# Disable aos animation delay on devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
     [data-aos-delay] {
@@ -286,7 +286,9 @@ section {
 section {
     scroll-margin-top: 90px;
 }
-
+#contact{
+    padding: 6px;
+}
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
