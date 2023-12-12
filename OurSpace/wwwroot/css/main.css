@@ -1653,6 +1653,8 @@ section {
     padding: 30px;
     background: var(--color-primary);
     color: #fff;
+    height: 290px;
+    width: 330px;
 }
 
     .hub_choice .hub_choice_box h3 {
