@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using OurSpace.Data;
@@ -66,6 +67,16 @@ namespace OurSpace.Controllers
         {
             if (ModelState.IsValid)
             {
+
+              // check if admin code is in hubs table
+              // var existingHub = _dbData.bookings.Where(p => p.BId == registerInfo.AdminCode).FirstOrDefault();
+
+              //  if (existingHub == null)
+              //  {
+              //      ModelState.AddModelError("AdminCode", "Admin Code does not exist");
+              //      return View(registerInfo);
+              //  }
+
                 UserIdentity newAdmin = new UserIdentity();
                 newAdmin.UFName = registerInfo.UFname;
                 newAdmin.ULName = registerInfo.ULname;
@@ -90,6 +101,50 @@ namespace OurSpace.Controllers
             }
 
             return View(registerInfo);
+        }
+
+        [HttpGet]
+        public IActionResult ChangePassword(string admincode)
+        {
+            UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(s => s.AdminCode == admincode);
+
+            if (registeredacc != null)
+                return View(registeredacc);
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(ChangeUserPasswordViewModel passwordChanges)
+        {
+            UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(UserIdentity => UserIdentity.AdminCode == passwordChanges.AdminCode);
+
+            if (registeredacc != null)
+            {
+
+                var user = await _userManager.FindByIdAsync(registeredacc.Id);
+
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+
+                await _userManager.RemovePasswordAsync(registeredacc);
+
+                var result = await _userManager.AddPasswordAsync(registeredacc, passwordChanges.ConfirmPassword);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Login", "Account");
+                }
+                else
+                {
+                    var errorstring = string.Join(" ", result.Errors.Select(p => p.Description));
+
+                    ModelState.AddModelError("ChangePasswordErrors", errorstring);
+                    return View();
+                    //return RedirectToAction("Index", "Home");
+                }
+            }
+
+            return RedirectToAction("Login");
         }
     }
 }

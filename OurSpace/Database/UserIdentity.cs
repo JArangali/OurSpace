@@ -7,5 +7,8 @@ namespace OurSpace.Database
         public string? UFName { get; set; }
         public string? ULName { get; set;}
         public string? AdminCode { get; set; }
+
+
+
     }
 }
