@@ -13,11 +13,20 @@ public class DashboardController : Controller
 
     public IActionResult Index()
     {
+        if(!User.Identity.IsAuthenticated) 
+        {
+            return RedirectToAction("Login", "Account");
+        }
         return View(_dbData.bookings);
     }
 
     public IActionResult ShowDetail(int id)
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
+
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
         if (bookings != null)
@@ -29,12 +38,20 @@ public class DashboardController : Controller
     [HttpGet]
     public IActionResult AddBookings()
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         return View();
     }
 
     [HttpPost]
     public IActionResult AddBookings(Bookings newBookings)
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         if (!ModelState.IsValid)
             return View();
 
@@ -46,12 +63,20 @@ public class DashboardController : Controller
     [HttpGet]
     public IActionResult AddHomeroomBookings()
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         return View();
     }
 
     [HttpPost]
     public IActionResult AddHomeroomBookings(Bookings newBookings)
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         if (!ModelState.IsValid)
             return View();
 
@@ -63,6 +88,10 @@ public class DashboardController : Controller
     [HttpGet]
     public IActionResult UpdateInstructor(int id)
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
         if (bookings != null)//was an instructor found?
@@ -74,6 +103,10 @@ public class DashboardController : Controller
     [HttpPost]
     public IActionResult UpdateBookings(Bookings bookingsChanges)
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == bookingsChanges.BId);
 
         if (bookings != null)
@@ -93,7 +126,10 @@ public class DashboardController : Controller
     [HttpGet]
     public IActionResult Done(int id)
     {
-
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
         if (bookings != null)//was an instructor found?
@@ -105,6 +141,10 @@ public class DashboardController : Controller
     [HttpPost]
     public IActionResult Done(Bookings newBookings)
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Login", "Account");
+        }
         Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == newBookings.BId);
 
         if (bookings != null)

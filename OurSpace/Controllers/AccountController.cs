@@ -26,6 +26,10 @@ namespace OurSpace.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
@@ -59,6 +63,10 @@ namespace OurSpace.Controllers
         [HttpGet]
         public IActionResult Register()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
@@ -104,47 +112,50 @@ namespace OurSpace.Controllers
         }
 
         [HttpGet]
-        public IActionResult ChangePassword(string admincode)
+        public IActionResult ChangePassword()
         {
-            UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(s => s.AdminCode == admincode);
+          // UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(s => s.AdminCode == admincode);
 
-            if (registeredacc != null)
-                return View(registeredacc);
+          //  if (registeredacc != null)
+          //      return View(registeredacc);
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> ChangePassword(ChangeUserPasswordViewModel passwordChanges)
         {
-            UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(UserIdentity => UserIdentity.AdminCode == passwordChanges.AdminCode);
-
-            if (registeredacc != null)
+            if (ModelState.IsValid)
             {
+                UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(UserIdentity => UserIdentity.AdminCode == passwordChanges.AdminCode);
 
-                var user = await _userManager.FindByIdAsync(registeredacc.Id);
-
-                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-
-
-                await _userManager.RemovePasswordAsync(registeredacc);
-
-                var result = await _userManager.AddPasswordAsync(registeredacc, passwordChanges.ConfirmPassword);
-
-                if (result.Succeeded)
+                if (registeredacc != null)
                 {
-                    return RedirectToAction("Login", "Account");
-                }
-                else
-                {
-                    var errorstring = string.Join(" ", result.Errors.Select(p => p.Description));
 
-                    ModelState.AddModelError("ChangePasswordErrors", errorstring);
-                    return View();
-                    //return RedirectToAction("Index", "Home");
+                    var user = await _userManager.FindByIdAsync(registeredacc.Id);
+
+                    var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+
+                    await _userManager.RemovePasswordAsync(registeredacc);
+
+                    var result = await _userManager.AddPasswordAsync(registeredacc, passwordChanges.ConfirmPassword);
+
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("Login", "Account");
+                    }
+                    else
+                    {
+                        var errorstring = string.Join(" ", result.Errors.Select(p => p.Description));
+
+                        ModelState.AddModelError("ChangePasswordErrors", errorstring);
+                        return View();
+                        //return RedirectToAction("Index", "Home");
+                    }
                 }
+                return RedirectToAction("Login");
             }
-
-            return RedirectToAction("Login");
+            return View(passwordChanges);
         }
     }
 }
