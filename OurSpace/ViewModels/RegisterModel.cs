@@ -8,6 +8,7 @@ namespace OurSpace.ViewModels
 
         [Required(ErrorMessage = "Admin Code is required. Contact your manager.")]
         [Display(Name = "Admin Code")]
+        [DataType(DataType.Password)]
         [StringLength(5)]
         public string? AdminCode { get; set; }
 
