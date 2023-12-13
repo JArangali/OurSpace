@@ -20,10 +20,8 @@
   <ItemGroup>
     <None Remove="Database\" />
     <None Remove="Views\Dashboard\" />
-    <None Remove="Views\Creatives\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Dashboard\" />
-    <Folder Include="Views\Creatives\" />
   </ItemGroup>
 </Project>

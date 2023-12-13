@@ -17,7 +17,21 @@ public class DashboardController : Controller
         {
             return RedirectToAction("Login", "Account");
         }
-        return View(_dbData.bookings);
+
+        var bookings = _dbData.bookings.Where(B => B.BStatus == "Pending").ToList();
+        var accepted = _dbData.bookings.Where(B => B.BStatus == "Accepted").ToList();
+        var completed = _dbData.bookings.Where(B => B.BStatus == "Completed").ToList();
+        var archive = _dbData.bookings.Where(B => B.BStatus == "Cancelled" || B.BStatus == "Declined").ToList();
+
+        var viewModel = new TwoModelViewModel
+        {
+            Bookings = bookings,
+            Accepted = accepted,
+            Completed = completed,
+            Archive = archive
+        };
+
+        return View(viewModel);
     }
 
     public IActionResult ShowDetail(int id)
@@ -48,107 +62,62 @@ public class DashboardController : Controller
     [HttpPost]
     public IActionResult AddBookings(Bookings newBookings)
     {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Login", "Account");
-        }
-        if (!ModelState.IsValid)
-            return View();
+        var toAdd = newBookings;
+        toAdd.BStatus = "Pending";
 
-        _dbData.bookings.Add(newBookings);
+        _dbData.bookings.Add(toAdd);
         _dbData.SaveChanges();
-        return View("Index", _dbData.bookings);
+        return RedirectToAction("Index", "Dashboard");
     }
-
     [HttpGet]
-    public IActionResult AddHomeroomBookings()
+    public IActionResult DashboardAccept(int id)
     {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Login", "Account");
-        }
-        return View();
-    }
+        Bookings? newAccepted = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
-    [HttpPost]
-    public IActionResult AddHomeroomBookings(Bookings newBookings)
-    {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Login", "Account");
-        }
-        if (!ModelState.IsValid)
-            return View();
+        var toUpdate = newAccepted;
+        toUpdate.BStatus = "Accepted";
 
-        _dbData.bookings.Add(newBookings);
+        _dbData.bookings.Update(toUpdate);
         _dbData.SaveChanges();
-        return View("Index", _dbData.bookings);
+        return RedirectToAction("Index", "Dashboard");
     }
 
     [HttpGet]
-    public IActionResult UpdateInstructor(int id)
+    public IActionResult DashboardComplete(int id)
     {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Login", "Account");
-        }
-        Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
+        Bookings? newComplete = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
-        if (bookings != null)//was an instructor found?
-            return View(bookings);
+        var toComplete = newComplete;
+        toComplete.BStatus = "Completed";
 
-        return NotFound();
-    }
-
-    [HttpPost]
-    public IActionResult UpdateBookings(Bookings bookingsChanges)
-    {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Login", "Account");
-        }
-        Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == bookingsChanges.BId);
-
-        if (bookings != null)
-        {
-            bookings.BName = bookingsChanges.BName;
-            bookings.BEmail = bookingsChanges.BEmail;
-            bookings.BCNum = bookingsChanges.BCNum;
-            bookings.BDate = bookingsChanges.BDate;
-            bookings.BTime = bookingsChanges.BTime;
-            bookings.BMessage = bookingsChanges.BMessage;
-            _dbData.SaveChanges();
-        }
-
-        return RedirectToAction("Index");
+        _dbData.bookings.Update(toComplete);
+        _dbData.SaveChanges();
+        return RedirectToAction("Index", "Dashboard");
     }
 
     [HttpGet]
-    public IActionResult Done(int id)
+    public IActionResult DashboardCancelled(int id)
     {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Login", "Account");
-        }
-        Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
+        Bookings? newArchive = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
-        if (bookings != null)//was an instructor found?
-            return View(bookings);
+        var toArchive = newArchive;
+        toArchive.BStatus = "Cancelled";
 
-        return NotFound();
+        _dbData.bookings.Update(toArchive);
+        _dbData.SaveChanges();
+        return RedirectToAction("Index", "Dashboard");
     }
 
-    [HttpPost]
-    public IActionResult Done(Bookings newBookings)
+    [HttpGet]
+    public IActionResult DashboardDeclined(int id)
     {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Login", "Account");
-        }
-        Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == newBookings.BId);
+        Bookings? newArchive = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
-        if (bookings != null)
-            _dbData.bookings.Remove(bookings);
-        return RedirectToAction("Index");
+        var toArchive = newArchive;
+        toArchive.BStatus = "Declined";
+
+        _dbData.bookings.Update(toArchive);
+        _dbData.SaveChanges();
+        return RedirectToAction("Index", "Dashboard");
     }
 }
