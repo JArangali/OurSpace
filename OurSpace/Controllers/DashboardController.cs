@@ -18,10 +18,11 @@ public class DashboardController : Controller
             return RedirectToAction("Login", "Account");
         }
 
-        var bookings = _dbData.bookings.Where(B => B.BStatus == "Pending").ToList();
-        var accepted = _dbData.bookings.Where(B => B.BStatus == "Accepted").ToList();
-        var completed = _dbData.bookings.Where(B => B.BStatus == "Completed").ToList();
-        var archive = _dbData.bookings.Where(B => B.BStatus == "Cancelled" || B.BStatus == "Declined").ToList();
+        var user = _dbData.AspNetUsers.FirstOrDefault(F => F.UserName == User.Identity.Name);
+        var bookings = _dbData.bookings.Where(B => B.BStatus == "Pending" && B.BHub == user.AdminCode).ToList();
+        var accepted = _dbData.bookings.Where(B => B.BStatus == "Accepted" && B.BHub == user.AdminCode).ToList();
+        var completed = _dbData.bookings.Where(B => B.BStatus == "Completed" && B.BHub == user.AdminCode).ToList();
+        var archive = _dbData.bookings.Where(B => (B.BStatus == "Cancelled" || B.BStatus == "Declined") && B.BHub == user.AdminCode).ToList();
 
         var viewModel = new TwoModelViewModel
         {

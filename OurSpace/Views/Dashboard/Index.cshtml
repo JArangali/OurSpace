@@ -60,6 +60,7 @@
                     <th>DateTime</th>
                     <th>Number of Persons</th>
                     <th>Message</th>
+                    <th>Hub</th>
                     <th>Accept</th>
                     <th>Decline</th>
                 </tr>
@@ -74,6 +75,7 @@
                         <td>@item.BDate</td>
                         <td>@item.BPNum</td>
                         <td>@item.BMessage</td>
+                        <td>@item.BHub</td>
                         <td><a asp-action="DashboardAccept" asp-route-id="@item.BId" class="btn btn-danger">Accept</a></td>
                         <td><a asp-action="DashboardDeclined" asp-route-id="@item.BId" class="btn btn-danger">Decline</a></td>
                     </tr>
@@ -92,6 +94,7 @@
                     <th>DateTime</th>
                     <th>Number of Persons</th>
                     <th>Message</th>
+                    <th>Hub</th>
                     <th>Complete</th>
                     <th>Canceled</th>
                 </tr>
@@ -106,6 +109,7 @@
                         <td>@item.BDate</td>
                         <td>@item.BPNum</td>
                         <td>@item.BMessage</td>
+                        <td>@item.BHub</td>
                         <td><a asp-action="DashboardComplete" asp-route-id="@item.BId" class="btn btn-danger">Completed</a></td>
                         <td><a asp-action="DashboardCancelled" asp-route-id="@item.BId" class="btn btn-danger">Canceled</a></td>
                     </tr>
@@ -124,6 +128,7 @@
                     <th>DateTime</th>
                     <th>Number of Persons</th>
                     <th>Message</th>
+                    <th>Hub</th>
                 </tr>
 
                 @foreach (var item in Model.Completed)
@@ -136,6 +141,7 @@
                         <td>@item.BDate</td>
                         <td>@item.BPNum</td>
                         <td>@item.BMessage</td>
+                        <td>@item.BHub</td>
                     </tr>
                 }
             </table>
@@ -152,6 +158,7 @@
                     <th>Date</th>
                     <th>Number of Persons</th>
                     <th>Message</th>
+                    <th>Hub</th>
                     <th>Status</th>
                 </tr>
 
@@ -165,6 +172,7 @@
                         <td>@item.BDate</td>
                         <td>@item.BPNum</td>
                         <td>@item.BMessage</td>
+                        <td>@item.BHub</td>
                         <td>@item.BStatus</td>
                     </tr>
                 }
