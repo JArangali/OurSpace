@@ -307,12 +307,21 @@
                                     <input type="number" asp-for="BCNum" class="form-control">
                                 </div>
                                 <div class="col-lg-4 col-md-6">
-                                    <label asp-for="BDate">Date</label>
-                                    <input type="date" name="date" class="form-control" id="date" placeholder="Date" asp-for="BDate">
+                                    <label asp-for="BDate" class="form-label" for="BDate">Date and Time</label>
+                                    <input asp-for="BDate" type="datetime-local" class="form-control form-control-lg" />
                                 </div>
                                 <div class="col-lg-4 col-md-6">
-                                    <label asp-for="BTime">Time</label>
-                                    <input type="time" class="form-control" name="time" id="time" placeholder="Time" asp-for="BTime">
+                                    <label asp-for="BHub" class="form-label" for="BHub">Choose a hub</label>
+                                    <select asp-for="BHub"
+                                            asp-items="@(new List<SelectListItem>{
+                                            new SelectListItem { Selected = false, Text = "Homeroom Study Lounge", Value = "Homeroom"},
+                                            new SelectListItem { Selected = false, Text = "933 Creatives", Value = "creatives"},
+                                            new SelectListItem { Selected = false, Text = "Space 1851 CoWorking Hub", Value = "space"},
+                                            new SelectListItem { Selected = false, Text = "Plug It - Study Hub", Value = "plugit"},
+                                            new SelectListItem { Selected = false, Text = "107 Co-working", Value = "macao"},
+                                            new SelectListItem { Selected = false, Text = "Stream Concept", Value = "stream"}})">
+                                        <option>Please select one</option>
+                                    </select>
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <label asp-for="BPNum">Number of Persons</label>
