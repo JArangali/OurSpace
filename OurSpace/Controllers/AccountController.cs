@@ -76,14 +76,18 @@ namespace OurSpace.Controllers
             if (ModelState.IsValid)
             {
 
-              // check if admin code is in hubs table
-              // var existingHub = _dbData.bookings.Where(p => p.BId == registerInfo.AdminCode).FirstOrDefault();
+                // check if admin code is in hubs table
+                var userId = User.Identity.Name;
 
-              //  if (existingHub == null)
-              //  {
-              //      ModelState.AddModelError("AdminCode", "Admin Code does not exist");
-              //      return View(registerInfo);
-              //  }
+                List<string> hublist = new List<string>() { "Homeroom", "creatives", "plugit", "macao", "stream" };
+
+                var existingHub = hublist.AsQueryable().Where(p => p == registerInfo.AdminCode).FirstOrDefault();
+
+                if (existingHub == null)
+                {
+                    ModelState.AddModelError("AdminCode", "Admin Code does not exist");
+                    return View(registerInfo);
+                }
 
                 UserIdentity newAdmin = new UserIdentity();
                 newAdmin.UFName = registerInfo.UFname;
