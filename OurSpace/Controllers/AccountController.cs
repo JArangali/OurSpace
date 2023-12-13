@@ -130,7 +130,7 @@ namespace OurSpace.Controllers
         {
             if (ModelState.IsValid)
             {
-                UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(UserIdentity => UserIdentity.AdminCode == passwordChanges.AdminCode);
+                UserIdentity? registeredacc = _dbData.AspNetUsers.FirstOrDefault(UserIdentity => UserIdentity.AdminCode == passwordChanges.AdminCode && UserIdentity.UserName == passwordChanges.Uemail);
 
                 if (registeredacc != null)
                 {
@@ -157,7 +157,8 @@ namespace OurSpace.Controllers
                         //return RedirectToAction("Index", "Home");
                     }
                 }
-                return RedirectToAction("Login");
+                ModelState.AddModelError("ChangePasswordErrors", "Incorrect Admin Code or Email");
+                return View();
             }
             return View(passwordChanges);
         }
