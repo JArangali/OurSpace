@@ -14,13 +14,17 @@ public class DashboardController : Controller
     public IActionResult Index()
     {
 
-        var bookings = _dbData.bookings.ToList();
-        var accepted = _dbData.accepted.ToList();
+        var bookings = _dbData.bookings.Where(B=>B.BStatus == "Pending").ToList();
+        var accepted = _dbData.bookings.Where(B => B.BStatus == "Accepted").ToList();
+        var completed = _dbData.bookings.Where(B => B.BStatus == "Completed").ToList();
+        var archive = _dbData.bookings.Where(B => B.BStatus == "Cancelled" || B.BStatus == "Declined").ToList();
 
         var viewModel = new TwoModelViewModel
         {
             Bookings = bookings,
-            Accepted = accepted
+            Accepted = accepted,
+            Completed = completed,
+            Archive = archive
         };
 
         return View(viewModel);
@@ -46,80 +50,63 @@ public class DashboardController : Controller
     [HttpPost]
     public IActionResult AddBookings(Bookings newBookings)
     {
-        if (!ModelState.IsValid)
-            return View();
+        var toAdd = newBookings;
+        toAdd.BStatus = "Pending";
 
-        _dbData.bookings.Add(newBookings);
+        _dbData.bookings.Add(toAdd);
         _dbData.SaveChanges();
-        return View("Index", _dbData.bookings);
+        return RedirectToAction("Index", "Dashboard");
     }
-
-    //[HttpGet]
-    //public IActionResult AddHomeroomBookings()
-    //{
-    //    return View();
-    //}
-
-    //[HttpPost]
-    //public IActionResult AddHomeroomBookings(Bookings newBookings)
-    //{
-    //    if (!ModelState.IsValid)
-    //        return View();
-
-    //    _dbData.bookings.Add(newBookings);
-    //    _dbData.SaveChanges();
-    //    return View("Index", _dbData.bookings);
-    //}
-
-    //[HttpGet]
-    //public IActionResult UpdateUser(int id)
-    //{
-    //    Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
-
-    //    if (bookings != null)//was an instructor found?
-    //        return View(bookings);
-
-    //    return NotFound();
-    //}
-
-    //[HttpPost]
-    //public IActionResult UpdateUser(Bookings bookingsChanges)
-    //{
-    //    Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == bookingsChanges.BId);
-
-    //    if (bookings != null)
-    //    {
-    //        bookings.BName = bookingsChanges.BName;
-    //        bookings.BEmail = bookingsChanges.BEmail;
-    //        bookings.BCNum = bookingsChanges.BCNum;
-    //        bookings.BDate = bookingsChanges.BDate;
-    //        bookings.BTime = bookingsChanges.BTime;
-    //        bookings.BMessage = bookingsChanges.BMessage;
-    //        _dbData.SaveChanges();
-    //    }
-
-    //    return RedirectToAction("Index");
-    //}
 
     [HttpGet]
-    public IActionResult creativesCancel(int id)
+    public IActionResult DashboardAccept(int id)
     {
+        Bookings? newAccepted = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
-        Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == id);
-        if (bookings != null)
-        {
-            return View(bookings);
-        }
-        return NotFound();
+        var toUpdate = newAccepted;
+        toUpdate.BStatus = "Accepted";
+
+        _dbData.bookings.Update(toUpdate);
+        _dbData.SaveChanges();
+        return RedirectToAction("Index", "Dashboard");
     }
 
-    [HttpPost]
-    public IActionResult creativesCancel(Bookings newBookings)
+    [HttpGet]
+    public IActionResult DashboardComplete(int id)
     {
-        Bookings? bookings = _dbData.bookings.FirstOrDefault(st => st.BId == newBookings.BId);
+        Bookings? newComplete = _dbData.bookings.FirstOrDefault(st => st.BId == id);
 
-        if (bookings != null)
-            _dbData.bookings.Remove(bookings);
-        return View("/Index", _dbData.bookings);
+        var toComplete = newComplete;
+        toComplete.BStatus = "Completed";
+
+        _dbData.bookings.Update(toComplete);
+        _dbData.SaveChanges();
+        return RedirectToAction("Index", "Dashboard");
+    }
+
+    [HttpGet]
+    public IActionResult DashboardCanceled(int id)
+    {
+        Bookings? newArchive = _dbData.bookings.FirstOrDefault(st => st.BId == id);
+
+        var toArchive = newArchive;
+        toArchive.BStatus = "Cancelled";
+
+        _dbData.bookings.Update(toArchive);
+        _dbData.SaveChanges();
+        return RedirectToAction("Index", "Dashboard");
+    }
+
+    [HttpGet]
+    public IActionResult DashboardDeclined(int id)
+    {
+        Bookings? newArchive = _dbData.bookings.FirstOrDefault(st => st.BId == id);
+
+        var toArchive = newArchive;
+        toArchive.BStatus = "Declined";
+
+        _dbData.bookings.Update(toArchive);
+        _dbData.SaveChanges();
+        return RedirectToAction("Index", "Dashboard");
     }
 }

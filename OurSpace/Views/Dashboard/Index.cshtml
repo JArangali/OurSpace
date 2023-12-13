@@ -47,6 +47,10 @@
                     <h1>Booking List</h1>
                 </strong>
             </div>
+
+            <strong>
+                <h1>Requested Bookings</h1>
+            </strong>
             <table class="table table-dark">
                 <tr>
                     <th>ID</th>
@@ -57,26 +61,30 @@
                     <th>Time</th>
                     <th>Number of Persons</th>
                     <th>Message</th>
-                    <th>Delete</th>
-                    <th>Done</th>
+                    <th>Accept</th>
+                    <th>Decline</th>
                 </tr>
 
                 @foreach (var item in Model.Bookings)
-                    {
+                {
                     <tr>
-                        <td>@Bookings.BId</td>
-                        <td>@Bookings.BName</td>
-                        <td>@Bookings.BEmail</td>
-                        <td>@Bookings.BCNum</td>
-                        <td>@Bookings.BDate</td>
-                        <td>@Bookings.BTime</td>
-                        <td>@Bookings.BPNum</td>
-                        <td>@Bookings.BMessage</td>
-                        <td><a asp-action="creativesCancel" asp-route-id="@Bookings.BId" class="btn btn-danger">Done</a></td>
+                        <td>@item.BId</td>
+                        <td>@item.BName</td>
+                        <td>@item.BEmail</td>
+                        <td>@item.BCNum</td>
+                        <td>@item.BDate</td>
+                        <td>@item.BTime</td>
+                        <td>@item.BPNum</td>
+                        <td>@item.BMessage</td>
+                        <td><a asp-action="DashboardAccept" asp-route-id="@item.BId" class="btn btn-danger">Accept</a></td>
+                        <td><a asp-action="DashboardDeclined" asp-route-id="@item.BId" class="btn btn-danger" method="post">Decline</a></td>
                     </tr>
                 }
             </table>
 
+            <strong>
+                <h1>Accepted Bookings</h1>
+            </strong>
             <table class="table table-dark">
                 <tr>
                     <th>ID</th>
@@ -87,22 +95,85 @@
                     <th>Time</th>
                     <th>Number of Persons</th>
                     <th>Message</th>
-                    <th>Delete</th>
-                    <th>Done</th>
+                    <th>Complete</th>
+                    <th>Canceled</th>
                 </tr>
 
-                @foreach (var Accepted in Model)
+                @foreach (var item in Model.Accepted)
                 {
                     <tr>
-                        <td>@Accepted.ABId</td>
-                        <td>@Accepted.ABName</td>
-                        <td>@Accepted.ABEmail</td>
-                        <td>@Accepted.ABCNum</td>
-                        <td>@Accepted.ABDate</td>
-                        <td>@Accepted.ABTime</td>
-                        <td>@Accepted.ABPNum</td>
-                        <td>@Accepted.ABMessage</td>
-                        <td><a asp-action="creativesCancel" asp-route-id="@Accepted.ABId" class="btn btn-danger">Done</a></td>
+                        <td>@item.BId</td>
+                        <td>@item.BName</td>
+                        <td>@item.BEmail</td>
+                        <td>@item.BCNum</td>
+                        <td>@item.BDate</td>
+                        <td>@item.BTime</td>
+                        <td>@item.BPNum</td>
+                        <td>@item.BMessage</td>
+                        <td><a asp-action="DashboardComplete" asp-route-id="@item.BId" class="btn btn-danger" method="post">Completed</a></td>
+                        <td><a asp-action="DashboardCancelled" asp-route-id="@item.BId" class="btn btn-danger" method="post">Canceled</a></td>
+                    </tr>
+                }
+            </table>
+
+            <strong>
+                <h1>Completed Bookings</h1>
+            </strong>
+            <table class="table table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Contact Number</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Number of Persons</th>
+                    <th>Message</th>
+                </tr>
+
+                @foreach (var item in Model.Completed)
+                {
+                    <tr>
+                        <td>@item.BId</td>
+                        <td>@item.BName</td>
+                        <td>@item.BEmail</td>
+                        <td>@item.BCNum</td>
+                        <td>@item.BDate</td>
+                        <td>@item.BTime</td>
+                        <td>@item.BPNum</td>
+                        <td>@item.BMessage</td>
+                    </tr>
+                }
+            </table>
+
+            <strong>
+                <h1>Archived Bookings</h1>
+            </strong>
+            <table class="table table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Contact Number</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Number of Persons</th>
+                    <th>Message</th>
+                    <th>Status</th>
+                </tr>
+
+                @foreach (var item in Model.Archive)
+                {
+                    <tr>
+                        <td>@item.BId</td>
+                        <td>@item.BName</td>
+                        <td>@item.BEmail</td>
+                        <td>@item.BCNum</td>
+                        <td>@item.BDate</td>
+                        <td>@item.BTime</td>
+                        <td>@item.BPNum</td>
+                        <td>@item.BMessage</td>
+                        <td>@item.BStatus</td>
                     </tr>
                 }
             </table>
