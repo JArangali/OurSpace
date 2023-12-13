@@ -10,9 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddIdentity<UserIdentity, IdentityRole> ( options =>
+builder.Services.AddIdentity<UserIdentity, IdentityRole>(options =>
 {
     //options.SignIn.RequireConfirmedAccount = true;
     options.Password.RequireDigit = true;
@@ -20,7 +20,7 @@ builder.Services.AddIdentity<UserIdentity, IdentityRole> ( options =>
     options.Password.RequireLowercase = true;
     options.Password.RequiredLength = 8;
     options.User.RequireUniqueEmail = true;
-}).AddEntityFrameworkStores<AppDbContext>().AddRoles<IdentityRole> ().AddDefaultTokenProviders();
+}).AddEntityFrameworkStores<AppDbContext>().AddRoles<IdentityRole>().AddDefaultTokenProviders();
 
 var app = builder.Build();
 
@@ -33,7 +33,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication ();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

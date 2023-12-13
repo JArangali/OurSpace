@@ -24,7 +24,7 @@
 </head>
 <body>
     <h1> Are you sure you want to delete? </h1>
-    <form asp-action="Done" asp-controller="Dashboard" method="post">
+    <form asp-action="creativesDone" asp-controller="Dashboard" method="post">
         <div class="form-group">
             <label asp-for="BId">Id</label>
             <input asp-for="BId" class="form-control" readonly>
@@ -41,31 +41,26 @@
         </div>
 
         <div class="form-group">
-            <label asp-for="BDate">GPA</label>
+            <label asp-for="BDate">Date</label>
             <input asp-for="BDate" class="form-control" readonly />
         </div>
 
         <div class="form-group">
-            <label asp-for="BTime">GPA</label>
+            <label asp-for="BTime">Time</label>
             <input asp-for="BTime" class="form-control" readonly />
         </div>
 
         <div class="form-group">
-            <label asp-for="BEmail">Course</label>
-            <select asp-for="BEmail" class=" form-control" readonly></select>
-        </div>
-
-        <div class="form-group">
-            <label asp-for="BPNum">Admission Date</label>
+            <label asp-for="BPNum">Number of Persons</label>
             <input asp-for="BPNum" class="form-control" readonly>
         </div>
 
         <div class="form-group">
-            <label asp-for="BMessage">Email</label>
+            <label asp-for="BMessage">Message</label>
             <input asp-for="BMessage" class="form-control" readonly></>
         </div>
 
-        <button type="submit" class="btn btn-primary">Delete</button>
+        <button type="submit" class="btn btn-primary">Accept</button>
         <button type="button" onclick="history.back()" class="btn btn-secondary">Cancel</button>
     </form>
 
