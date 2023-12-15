@@ -21,6 +21,7 @@
     <link href="~/vendor/aos/aos.css" rel="stylesheet">
     <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -29,7 +30,7 @@
             <div class="container">
                 <div class="row justify-content-between gy-5">
                     <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                        <h2 data-aos="fade-up">Dashboard</h2>
+                        <h2 data-aos="fade-up" style="font-size:100px">Dashboard</h2>
                         <p data-aos="fade-up" data-aos-delay="100">Welcome</p>
                     </div>
                     <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
@@ -40,19 +41,20 @@
         </section><!-- End Hero Section -->
     </main>
     <!-- ======= Stats Counter Section ======= -->
-    <section id="stats-counter" class="stats-counter">
+    <section id="booking" class="booking">
         <div class="container" data-aos="zoom-out">
-            <div class="section-header" style="background-color: #D3D3D3; border-left: 30px; border-right: 30px; border-radius: 35px; padding-top: 30px">
+            <div class="section-header" style="border-left: 30px; border-right: 30px; border-radius: 35px; padding-top: 30px">
                 <strong>
-                    <h1>Booking List</h1>
+                    <h1 style="font-size: 120px">Booking List</h1>
                 </strong>
             </div>
-
+            <center>
             <strong>
-                <h1>Requested Bookings</h1>
+                <h2 style="color:red">Requested Bookings</h2>
             </strong>
-            <table class="table table-dark">
-                <tr>
+            </center>
+            <table class="table table-bordered">
+                <tr style="border:solid ;background-color:white" >
                     <th>ID</th>
                     <th>Full Name</th>
                     <th>Email</th>
@@ -67,7 +69,7 @@
 
                 @foreach (var item in Model.Bookings)
                 {
-                    <tr>
+                    <tr style="border:solid">
                         <td>@item.BId</td>
                         <td>@item.BName</td>
                         <td>@item.BEmail</td>
@@ -81,12 +83,13 @@
                     </tr>
                 }
             </table>
-
+            <center>
             <strong>
-                <h1>Accepted Bookings</h1>
+                    <h2 style ="color:red">Accepted Bookings</h2>
             </strong>
-            <table class="table table-dark">
-                <tr>
+            </center>
+            <table class="table table-bordered">
+                <tr style="border:solid ;background-color:white">
                     <th>ID</th>
                     <th>Full Name</th>
                     <th>Email</th>
@@ -101,7 +104,7 @@
 
                 @foreach (var item in Model.Accepted)
                 {
-                    <tr>
+                    <tr style="border:solid">
                         <td>@item.BId</td>
                         <td>@item.BName</td>
                         <td>@item.BEmail</td>
@@ -115,12 +118,13 @@
                     </tr>
                 }
             </table>
-
+            <center>
             <strong>
-                <h1>Completed Bookings</h1>
+                    <h2 style="color:red">Completed Bookings</h2>
             </strong>
-            <table class="table table-dark">
-                <tr>
+            </center>
+            <table class="table table-bordered">
+                <tr style="border:solid ;background-color:white">
                     <th>ID</th>
                     <th>Full Name</th>
                     <th>Email</th>
@@ -133,7 +137,7 @@
 
                 @foreach (var item in Model.Completed)
                 {
-                    <tr>
+                    <tr style="border:solid">
                         <td>@item.BId</td>
                         <td>@item.BName</td>
                         <td>@item.BEmail</td>
@@ -145,12 +149,13 @@
                     </tr>
                 }
             </table>
-
+            <center>
             <strong>
-                <h1>Archived Bookings</h1>
+                    <h2 style="color:red">Archived Bookings</h2>
             </strong>
-            <table class="table table-dark">
-                <tr>
+            </center>
+            <table class="table table-bordered">
+                <tr style="border:solid ;background-color:white">
                     <th>ID</th>
                     <th>Full Name</th>
                     <th>Email</th>
@@ -164,7 +169,7 @@
 
                 @foreach (var item in Model.Archive)
                 {
-                    <tr>
+                    <tr style="border:solid">
                         <td>@item.BId</td>
                         <td>@item.BName</td>
                         <td>@item.BEmail</td>

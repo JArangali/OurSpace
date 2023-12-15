@@ -779,12 +779,17 @@ section {
     padding: 100px 0;
     background-position: center;
 }
+.booking{
+    background-color:white;
+    border:solid;
+}
 
 @media (min-width: 1365px) {
     .stats-counter {
         background-attachment: fixed;
     }
 }
+
 
 .stats-counter .stats-item {
     padding: 30px;

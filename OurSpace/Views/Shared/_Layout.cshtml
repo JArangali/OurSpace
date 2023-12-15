@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OurSpace.styles.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/hero-img.png" type="image/x-icon" />
     <link href="~/css/main.css" rel="stylesheet">
     <title>OurSpace</title>
 
@@ -47,11 +48,12 @@
                 <ul>
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-action="Logout" asp-controller="Account">Logout</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a>@User.Identity.Name.Split('@').First() </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-action="Logout" asp-controller="Account">Logout</a>
                         </li>
                     }
                     else
