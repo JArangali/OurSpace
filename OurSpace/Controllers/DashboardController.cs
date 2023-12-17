@@ -63,16 +63,13 @@ public class DashboardController : Controller
     [HttpPost]
     public IActionResult AddBookings(Bookings newBookings)
     {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Index", "Home");
-        }
+        
         var toAdd = newBookings;
         toAdd.BStatus = "Pending";
 
         _dbData.bookings.Add(toAdd);
         _dbData.SaveChanges();
-        return RedirectToAction("Index", "Dashboard");
+        return RedirectToAction("Index", "Home");
     }
     [HttpGet]
     public IActionResult DashboardAccept(int id)
