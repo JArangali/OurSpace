@@ -296,12 +296,14 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <label asp-for="BEmail">Email</label>
-                                    <input asp-for="BEmail" class="form-control">
+                                    <input asp-for="BEmail" class="form-control" />
+                                    <span asp-validation-for="BEmail" class="text-danger"></span>
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <label asp-for="BCNum">Contact Number</label>
-                                    <input type="number" asp-for="BCNum" class="form-control">
+                                    <input type="number" asp-for="BCNum" class="form-control" minlength="11">
                                 </div>
+
                                 <div class="col-lg-4 col-md-6">
                                     <label asp-for="BDate" class="form-label" for="BDate">Date and Time</label>
                                     <input asp-for="BDate" type="datetime-local" class="form-control form-control-lg" />
