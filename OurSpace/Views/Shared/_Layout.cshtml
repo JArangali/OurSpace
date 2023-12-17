@@ -56,7 +56,7 @@
                             <a class="nav-link text-dark" asp-action="Logout" asp-controller="Account">Logout</a>
                         </li>
                     }
-                    else
+                    else if (User.Identity.IsAuthenticated)
                     {
                     <li>
                         <a class="btn-book-a-table" asp-area="" asp-controller="Account" asp-action="login">Login</a>

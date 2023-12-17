@@ -11,6 +11,7 @@ public class Bookings
     public string? BName { get; set; }
     public string? BEmail { get; set; }
     public string? BDate { get; set; }
+    [StringLength(11)]
     public string? BCNum { get; set; }
     public int? BPNum { get; set; }
     public string? BMessage { get; set; }
