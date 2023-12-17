@@ -9,9 +9,12 @@ public class Bookings
     [Key]
     public int BId { get; set; }
     public string? BName { get; set; }
+
+
+    [Required(ErrorMessage = "Email is required")]
+    [EmailAddress(ErrorMessage = "Invalid Email Address")]
     public string? BEmail { get; set; }
     public string? BDate { get; set; }
-    [StringLength(11)]
     public string? BCNum { get; set; }
     public int? BPNum { get; set; }
     public string? BMessage { get; set; }

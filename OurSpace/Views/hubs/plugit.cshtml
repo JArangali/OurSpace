@@ -247,7 +247,8 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <label asp-for="BEmail">Email</label>
-                                    <input asp-for="BEmail" class="form-control">
+                                    <input asp-for="BEmail" class="form-control" />
+                                    <span asp-validation-for="BEmail" class="text-danger"></span>
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <label asp-for="BCNum">Contact Number</label>
